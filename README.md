@@ -3,8 +3,11 @@ titan
 
 Program that help in learning english(or russian) words.
 
+You can use it without installation by running Titan.pl script.
 
-Hello! I'll help you to start using this program.
+
+But if you want to start program simply by entering 'Titan' in console,
+you need to install it. Script will be copied to '/usr/local/bin'.
 
 1. Installing
 You need to do this steps to install this program:
@@ -13,8 +16,7 @@ b) make
 c) make install
   (IMPORTENT: don't do this under root: sudo make install)
   Program will call you password while installing to copying script.
-  
-  
+
 2. Mods and texts
 
 For installing text files and mods you can copy it to '~/.titan/texts' or
@@ -23,7 +25,7 @@ For installing text files and mods you can copy it to '~/.titan/texts' or
 3. Starting
 
 After installing you can start this program in terminal by command 'Titan'.
-Then you can write 'help' and get information about base commands.
+Then you can read 'help' information about base commands.
 
 4. Starting without installing
 
