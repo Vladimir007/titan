@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+use strict;
+use English;
+use Cwd qw(cwd);
+
+my $current_dir = Cwd::cwd() or die("Can't obtain current directory!");
+
+print "Configuring main script...\n";
+open(my $srcfile, '<', "$current_dir/Titan.pl")
+	or die("Couldn't open file Titan.pl for read: $ERRNO");
+open(my $conffile, '>', "$current_dir/Titan.conf.pl")
+	or die("Couldn't open file Titan.conf.pl for write: $ERRNO");
+
+while(<$srcfile>)
+{
+	if($_ =~ /^my \$script_dir;/)
+	{
+		my $titan_dir = `echo \$HOME`;
+		chomp($titan_dir);
+		$titan_dir .= '/.titan';
+		$_ = "my \$script_dir = \"$titan_dir\";\n";
+	}
+	print($conffile $_);
+}
+close($srcfile);
+close($conffile);
+print "Done!\nNow you can 'make install'.\n";
