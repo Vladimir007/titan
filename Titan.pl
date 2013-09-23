@@ -6,6 +6,11 @@ use Cwd qw(cwd);
 use File::Copy qw(copy);
 use Time::HiRes;
 use File::Cat;
+use utf8;
+system("./test-titan.pl 2> /dev/null");
+my $tmp_check_exit = $?;
+print "TEST: test-titan.pl returned with code '$tmp_check_exit'.\n";
+use if($tmp_check_exit == 0), "XML::Twig";
 ########################################################################
 # Global variables
 ########################################################################
@@ -57,6 +62,9 @@ sub learn_new_words($);
 
 # Create tempfile with some words from base.cfg
 sub create_rand_wordfile($);
+sub txt_to_xml($$);
+sub start_with_xml(@);
+sub calc_res($$);
 ########################################################################
 # Main section
 ########################################################################
@@ -65,6 +73,7 @@ my $score = 0;
 print "===================================================\n";
 print "============== Welcome to the Titan! ==============\n";
 print "===================================================\n";
+print "WARNING! XML Twig will not be used.\n" if($tmp_check_exit);
 print "Enter your name: ";
 $name = <STDIN>;
 chomp($name);
@@ -471,24 +480,34 @@ sub generate_nums($$)
 {
 	my $up = shift;
 	my $tasks = shift;
-	my $rand_num = 1;
-	my $tmp = 1;
-	my @arr;
-	my $j = 1;
-	while($j <= $tasks)
+	my @ret_arr;
+	if($up == 0)
 	{
-		while($tmp == $rand_num)
+		my $j = 1;
+		while($j <= $tasks)
 		{
-			$tmp = int(rand($up)) + 1;
+			my $rand_lang = int(rand(2));
+			push(@ret_arr, $rand_lang);
+			$j++;
 		}
-		
-		$rand_num = int(rand(2));
-		push(@arr, $tmp);
-		unshift(@arr, $rand_num);
-		$rand_num = $tmp;
-		$j++;
 	}
-	return @arr;
+	else
+	{
+		my $j = 1;
+		while($j <= $tasks)
+		{
+			my $tmp = 1;
+			my $rand_num = 1;
+			while($tmp == $rand_num)
+			{
+				$tmp = int(rand($up)) + 1;
+			}
+			push(@ret_arr, $tmp);
+			$rand_num = $tmp;
+			$j++;
+		}
+	}
+	return @ret_arr;
 }
 
 sub make_base($$)
@@ -864,6 +883,14 @@ sub do_task($)
 	{
 		print "Titan-$version.$patchlevel\n";
 	}
+	elsif($l_task =~ /xml/)
+	{
+		print "Testing mode!\n";
+		#start_test();
+		#print "Error in start_with_xml." if(start_with_xml("test3.xml", 3, 0));
+		check_xml_file("test3.xml");
+		#txt_to_xml($main_words, "test3.xml");
+	}
 	else
 	{
 		print "Unknown command. Write 'help' for more info.\n";
@@ -1026,4 +1053,407 @@ sub create_rand_wordfile($)
 	return $tempfile;
 }
 
-#$ch = uc($ch); # для латиницы
+#$ch = uc($ch); # для латиницы сделать все буквы слова $ch заглавными
+
+sub start_test()
+{
+	my $xml_file = 'test3.xml';
+	return 1 unless(-f $xml_file);
+	my $twig = new XML::Twig;
+	$twig->parsefile("$xml_file");
+	my $root = $twig->root('wordbase');
+	my @words = $root->children('word');
+	my $test_word;
+	foreach my $word_from_base (@words)
+	{
+		my $word_id = $word_from_base->att('id');
+		$test_word = $word_from_base if($word_id == 653);
+	}
+	my @test_word_translations = $test_word->children('ru');
+	my $ru_num = @test_word_translations;
+	for(my $i = 0; $i < $ru_num; $i++)
+	{
+		@test_word_translations[$i] = @test_word_translations[$i]->text;
+		my $temp_ru_word = @test_word_translations[$i];
+		utf8::encode($temp_ru_word);
+		print "2:$temp_ru_word\n";
+		@test_word_translations[$i] = $temp_ru_word;
+	}
+	my $test_word = $test_word->first_child('eng')->text;
+	print "enter translate of $test_word(@test_word_translations)>";
+	my $answere = <STDIN>;
+	chomp($answere);
+	#utf8::encode($answere);
+	print "Your answere is $answere;\n";
+	print "Right!!!\n" if(grep $_ eq $answere, @test_word_translations);
+	open(my $xml_res, '>', 'test2.xml') or die "Error";
+#	binmode($xml_res, ":utf8");
+	$twig->set_pretty_print('record');
+	$twig->print($xml_res);
+	close($xml_res);
+	#$twig->print;
+}
+
+sub txt_to_xml($$)
+{
+	my $in_file = shift;
+	my $out_file = shift;
+	my $cnt = 0;
+	my @out_arr = ("<?xml version=\"1.0\"?>", "<wordbase>");
+	open(MYFILE, '<', $in_file) or die "ERROR";
+	while(<MYFILE>)
+	{
+		chomp($_);
+		my $in_line = $_;
+		if($in_line =~ /^(\w.*) - (.*?);/)
+		{
+			$cnt++;
+			push(@out_arr, "  <word id=\"$cnt\">");
+			push(@out_arr, "    <eng>$1</eng>");
+			push(@out_arr, "    <ru>$2</ru>");
+			my $post = $POSTMATCH;
+			while($post =~ /^(.*?);/)
+			{
+				push(@out_arr, "    <ru>$1</ru>");
+				$post = $POSTMATCH;
+			}
+			push(@out_arr, "    <tr>$post</tr>") if($post =~ /\[.*\]/);
+			push(@out_arr, "  </word>");
+		}
+	}
+	push(@out_arr, "</wordbase>");
+	close(MYFILE);
+	open(MYNEW, '>', $out_file) or die "ERROR!!";
+	my $cnt = @out_arr;
+	foreach my $arrline(@out_arr)
+	{
+		print(MYNEW "$arrline\n");
+	}
+	close(MYNEW);
+}
+
+sub xml_to_txt($$)
+{
+	my $xml_file = shift;
+	my $txt_file = shift;
+	my $cnt = 0;
+	my $twig = new XML::Twig;
+	$twig->parsefile("$xml_file");
+	my $root = $twig->root('wordbase');
+	my @words = $root->children('word');
+	my @out_arr;
+	foreach my $xml_word (@words)
+	{
+		my $eng_word_from_xml = $xml_word->first_child('eng')->text;
+		my $new_txt_line = $eng_word_from_xml;
+		my @ru_words_from_xml = $xml_word->children('ru');
+		$new_txt_line .= " - ";
+		my $ru_num = @ru_words_from_xml;
+		for(my $j = 0; $j < $ru_num; $j++)
+		{
+			@ru_words_from_xml[$j] = @ru_words_from_xml[$j]->text;
+			my $temp_ru_word = @ru_words_from_xml[$j];
+			utf8::encode($temp_ru_word);
+			@ru_words_from_xml[$j] = $temp_ru_word;
+			$new_txt_line .=
+		}
+		my $transc_from_xml = $xml_word->first_child('tr');
+		if($transc_from_xml)
+		{
+			$transc_from_xml = $transc_from_xml->text;
+			$new_txt_line .= $transc_from_xml;
+		}
+		
+	}
+	open(MYFILE, '<', $xml_file) or die "ERROR";
+	while(<MYFILE>)
+	{
+		chomp($_);
+		my $in_line = $_;
+		if($in_line =~ /^(\w.*) - (.*?);/)
+		{
+			$cnt++;
+			push(@out_arr, "  <word id=\"$cnt\">");
+			push(@out_arr, "    <eng>$1</eng>");
+			push(@out_arr, "    <ru>$2</ru>");
+			my $post = $POSTMATCH;
+			while($post =~ /^(.*?);/)
+			{
+				push(@out_arr, "    <ru>$1</ru>");
+				$post = $POSTMATCH;
+			}
+			push(@out_arr, "    <tr>$post</tr>") if($post =~ /\[.*\]/);
+			push(@out_arr, "  </word>");
+		}
+	}
+	push(@out_arr, "</wordbase>");
+	close(MYFILE);
+	open(MYNEW, '>', $out_file) or die "ERROR!!";
+	my $cnt = @out_arr;
+	foreach my $arrline(@out_arr)
+	{
+		print(MYNEW "$arrline\n");
+	}
+	close(MYNEW);
+}
+
+sub start_with_xml(@)
+{
+	my $word_file = shift;
+	my $num_of_words = shift;
+	my $test_mode = shift;
+	my $lang;
+	$lang = 0 if(($test_mode == 0) or ($test_mode == 3));
+	$lang = 1 if($test_mode == 1);
+	
+	unless(-f $word_file)
+	{
+		print "Error: Word file '$word_file' wasn't found.";
+		return (-1);
+	}
+	my $twig = new XML::Twig;
+	$twig->parsefile("$word_file");
+	my $root = $twig->root('wordbase');
+	my @words = $root->children('word');
+
+	my $base_size = @words;
+	if($base_size == 0)
+	{
+		print "Word base is empty!\n";
+		return (-1);
+	}
+	elsif($base_size < 5)
+	{
+		print "Word base is too small (only $base_size words).\n";
+		return (-1);
+	}
+
+	my @arr_of_nums;
+	my @arr_of_lang;
+	if($test_mode == 3)
+	{
+		for(my $j = 1; $j <= $base_size; $j++)
+		{
+			push(@arr_of_nums, $j);
+		}
+		shuffle(@arr_of_nums);
+	}
+	else
+	{
+		@arr_of_nums = generate_nums($base_size, $num_of_words);
+		@arr_of_lang = generate_nums(0, $num_of_words);
+	}
+
+	my %xml_map;
+	foreach my $word (@words)
+	{
+		$xml_map{$word->att('id')} = {'word' => $word};
+	}
+
+	my $time1;
+	my $time2;
+	my @wrong_ans;
+	my $result = 0;
+	my $num = 0;
+	while($num < $num_of_words)
+	{
+		my $word_id = shift(@arr_of_nums);
+		$lang = shift(@arr_of_lang) if($test_mode == 2);
+		# --------------------------Preparing word-----------------------------------
+		my $eng_word = $xml_map{$word_id}{'word'}->first_child('eng')->text;
+		my @ru_words = $xml_map{$word_id}{'word'}->children('ru');
+		my $ru_num = @ru_words;
+		for(my $j = 0; $j < $ru_num; $j++)
+		{
+			@ru_words[$j] = @ru_words[$j]->text;
+			my $temp_ru_word = @ru_words[$j];
+			utf8::encode($temp_ru_word);
+			@ru_words[$j] = $temp_ru_word;
+		}
+		my $transcription = $xml_map{$word_id}{'word'}->first_child('tr');
+		if($transcription)
+		{
+			$transcription = $transcription->text;
+			utf8::encode($transcription);
+		}
+		#----------------------------------------------------------------------------
+		my $success = 0;
+		if($lang == 0)
+		{
+			print "Enter translate of '$eng_word': > ";
+			$time1 = Time::HiRes::time;
+			my $my_word = <STDIN>;
+			$time2 = Time::HiRes::time;
+			chomp($my_word);
+			return 0 if($my_word eq 'exit');
+			$success = 1 if(grep $_ eq $my_word, @ru_words);
+			my $delta = $time2 - $time1;
+			my $add_points = calc_res($delta, $success);
+			push(@wrong_ans, $word_id) if($add_points <= 0);
+			$score += $add_points;
+			$result++ if($add_points >=0);
+		}
+		else
+		{
+			my $rand_num_word_from_ru = (int(rand(@ru_words)) + 1);
+			print "Debug: $rand_num_word_from_ru\n";
+			my $ru_word = @ru_words[$rand_num_word_from_ru];
+			print "Enter translate of '$ru_word': > ";
+			$time1 = Time::HiRes::time;
+			my $my_word = <STDIN>;
+			$time2 = Time::HiRes::time;
+			chomp($my_word);
+			return 0 if($my_word eq 'exit');
+			if($my_word eq $eng_word)
+			{
+				$success = 1;
+			}
+			else
+			{
+				my @eng_words = $eng_word;
+				foreach my $key(keys %xml_map)
+				{
+					my @tmp_ru_words = $xml_map{$key}{'word'}->children('ru');
+					my $tmp_ru_num = @tmp_ru_words;
+					for(my $j = 0; $j < $tmp_ru_num; $j++)
+					{
+						@tmp_ru_words[$j] = @tmp_ru_words[$j]->text;
+						my $temp_ru_word = @tmp_ru_words[$j];
+						utf8::encode($temp_ru_word);
+						@tmp_ru_words[$j] = $temp_ru_word;
+					}
+					push(@eng_words, $xml_map{$key}{'word'}->first_child('eng')->text)
+						if(grep $_ eq $my_word, @tmp_ru_words);
+				}
+				$success = 1 if(grep $_ eq $my_word, @eng_words);
+			}
+			my $delta = $time2 - $time1;
+			my $add_points = calc_res($delta, $success);
+			push(@wrong_ans, $word_id) if($add_points <= 0);
+			$score += $add_points;
+			$result++ if($add_points >=0);
+		}
+		$num++;
+	}
+	my @elements;
+	while(my $elem = <@wrong_ans>)
+	{
+		push(@elements, $elem) unless(grep $_ == $elem, @elements);
+	}
+	my $elements_size = @elements;
+	$elements_size = 0 if(($elements_size == 1) and (@elements[0] =~ /^\s*$/));
+	print "===================================================\n";
+	my $percents = int(($result/$num_of_words) * 100);
+	print "Your result: $result of $num_of_words ($percents\%);\n";
+	$score -= $num_of_words if($percents < 50);
+	if($elements_size)
+	{
+		print "Please learn this words:\n";
+		while(<@elements>)
+		{
+			my $eng_to_learn = $xml_map{$_}{'word'}->first_child('eng')->text;
+			my @ru_to_learn = $xml_map{$_}{'word'}->children('ru');
+			my $ru_learn_num = @ru_to_learn;
+			for(my $j = 0; $j < $ru_learn_num; $j++)
+			{
+				@ru_to_learn[$j] = @ru_to_learn[$j]->text;
+				my $temp_ru_word = @ru_to_learn[$j];
+				utf8::encode($temp_ru_word);
+				@ru_to_learn[$j] = $temp_ru_word . ';';
+			}
+			my $tr_to_learn;
+			if($xml_map{$_}{'word'}->first_child('tr'))
+			{
+				$tr_to_learn = $xml_map{$_}{'word'}->first_child('tr')->text;
+				utf8::encode($tr_to_learn);
+			}
+			print "   $eng_to_learn " if(defined($eng_to_learn));
+			print "$tr_to_learn " if($tr_to_learn);
+			print "- @ru_to_learn\n" if($ru_learn_num);
+		}
+	}
+	return 0;
+}
+
+sub calc_res($$)
+{
+	my $time = shift;
+	my $success = shift;
+	my $add_points = 0;
+	if($success == 1)
+	{
+		printf("Right! (%.1f sec)", $time);
+		if($time < 10.0)
+		{
+			$add_points = 3;
+		}
+		elsif($time < 15.0)
+		{
+			$add_points = 2;
+		}
+		elsif($time <= 20.0)
+		{
+			$add_points = 0;
+			print " But not very fast...";
+		}
+		else
+		{
+			print " But too long :(";
+			$add_points = -2;
+		}
+		print "\n";
+	}
+	else
+	{
+		print "Wrong!\n";
+		$add_points = -5;
+	}
+	return $add_points;
+}
+
+sub check_xml_file($)
+{
+	my $check_xml_file = shift;
+	my $check_twig = new XML::Twig;
+	$check_twig->parsefile("$check_xml_file");
+	my $check_root = $check_twig->root;
+	my @words = $check_root->children('word');
+	my $num_of_words = @words;
+	if($num_of_words < 3)
+	{
+		print "Words base is too little ($num_of_words words), you should add more words to learn.\n";
+		return 1;
+	}
+	foreach my $check_word (@words)
+	{
+		my $check_err_id = $check_word->att('id');
+		print "Word without id\n" unless($check_err_id);
+		my @check_english_words = $check_word->children('eng');
+		if(@check_english_words != 1)
+		{
+			my $check_eng_arr;
+			foreach my $check_eng_word (@check_english_words)
+			{
+				$check_eng_word = $check_eng_word->text;
+				$check_eng_arr .= "$check_eng_word; ";
+			}
+			print "Word with id $check_err_id should have only one english word: $check_eng_arr;\n";
+			return 1;
+		}
+		my $check_eng_word = $check_word->first_child('eng')->text;
+		my @check_russian_words = $check_word->children('ru');
+		if(@check_russian_words == 0)
+		{
+			print "Word with id $check_err_id haven't any russian translates ($check_eng_word);\n";
+			return 1;
+		}
+		my @check_transcriptions = $check_word->children('tr');
+		if(@check_transcriptions > 1)
+		{
+			print "Word with id $check_err_id haven't any russian translates ($check_eng_word);\n";
+			return 1;
+		}
+	}
+	print "XML file '$check_xml_file' were successfully checked!\n";
+	return 0;
+}

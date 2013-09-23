@@ -1,0 +1,3277 @@
+<?xml version="1.0"?>
+
+<wordbase>
+  <word id="1">
+    <eng>blow</eng>
+    <ru>удар</ru>
+  </word>
+  <word id="2">
+    <eng>experience</eng>
+    <ru>испытывать</ru>
+  </word>
+  <word id="3">
+    <eng>tame</eng>
+    <ru>приручать</ru>
+  </word>
+  <word id="4">
+    <eng>sense</eng>
+    <ru>ощущать</ru>
+    <ru>понимать</ru>
+    <ru>здравый смысл</ru>
+    <ru>чувство</ru>
+    <ru>смысл</ru>
+  </word>
+  <word id="5">
+    <eng>might</eng>
+    <ru>сила</ru>
+    <ru>мощь</ru>
+  </word>
+  <word id="6">
+    <eng>attain</eng>
+    <ru>достигать</ru>
+  </word>
+  <word id="7">
+    <eng>imbue</eng>
+    <ru>наполнять</ru>
+    <tr>[ɪmˈbju:]</tr>
+  </word>
+  <word id="8">
+    <eng>reclaim</eng>
+    <ru>регенерировать</ru>
+  </word>
+  <word id="9">
+    <eng>wage</eng>
+    <ru>вести</ru>
+    <ru>осуществлять</ru>
+  </word>
+  <word id="10">
+    <eng>sap</eng>
+    <ru>иссушать</ru>
+  </word>
+  <word id="11">
+    <eng>overcome</eng>
+    <ru>преодолевать</ru>
+    <ru>побеждать</ru>
+    <ru>овладевать</ru>
+  </word>
+  <word id="12">
+    <eng>odds</eng>
+    <ru>разногласия</ru>
+    <ru>шансы</ru>
+    <ru>необъективность</ru>
+    <ru>вероятность</ru>
+  </word>
+  <word id="13">
+    <eng>civil</eng>
+    <ru>гражданский</ru>
+  </word>
+  <word id="14">
+    <eng>belong</eng>
+    <ru>принадлежать</ru>
+  </word>
+  <word id="15">
+    <eng>ultimate</eng>
+    <ru>основной</ru>
+    <ru>окончательный</ru>
+    <tr>[ˈʌltɪmɪt]</tr>
+  </word>
+  <word id="16">
+    <eng>compose</eng>
+    <ru>сочинять</ru>
+    <ru>слагать</ru>
+    <ru>состав</ru>
+    <ru>составлять</ru>
+  </word>
+  <word id="17">
+    <eng>compete</eng>
+    <ru>конкурировать</ru>
+  </word>
+  <word id="18">
+    <eng>sentient</eng>
+    <ru>разумный</ru>
+    <ru>чувствительный</ru>
+    <ru>чувственный</ru>
+  </word>
+  <word id="19">
+    <eng>rival</eng>
+    <ru>конкурировать</ru>
+    <ru>конкурент</ru>
+    <ru>конкурирующий</ru>
+    <tr>[ˈraɪvəl]</tr>
+  </word>
+  <word id="20">
+    <eng>ensure</eng>
+    <ru>гарантировать</ru>
+    <tr>[ɪnˈʃuə]</tr>
+  </word>
+  <word id="21">
+    <eng>revere</eng>
+    <ru>уважать</ru>
+    <ru>чтить</ru>
+  </word>
+  <word id="22">
+    <eng>offer</eng>
+    <ru>предлагать</ru>
+  </word>
+  <word id="23">
+    <eng>glory</eng>
+    <ru>слава</ru>
+  </word>
+  <word id="24">
+    <eng>advance</eng>
+    <ru>прогресс</ru>
+    <ru>усовершенствование</ru>
+    <ru>передовой</ru>
+  </word>
+  <word id="25">
+    <eng>regular</eng>
+    <ru>постоянный</ru>
+    <ru>регулярный</ru>
+  </word>
+  <word id="26">
+    <eng>background</eng>
+    <ru>фон</ru>
+  </word>
+  <word id="27">
+    <eng>represent</eng>
+    <ru>представлять</ru>
+    <ru>изображать</ru>
+  </word>
+  <word id="28">
+    <eng>interior</eng>
+    <ru>внутренний</ru>
+    <ru>интерьер</ru>
+  </word>
+  <word id="29">
+    <eng>distinctive</eng>
+    <ru>особенный</ru>
+  </word>
+  <word id="30">
+    <eng>peril</eng>
+    <ru>опасность</ru>
+  </word>
+  <word id="31">
+    <eng>goal</eng>
+    <ru>цель</ru>
+  </word>
+  <word id="32">
+    <eng>dangerous</eng>
+    <ru>опасный</ru>
+    <ru>рискованный</ru>
+  </word>
+  <word id="33">
+    <eng>practitioner</eng>
+    <ru>практик</ru>
+    <tr>[prækˈtɪʃnə]</tr>
+  </word>
+  <word id="34">
+    <eng>inquest</eng>
+    <ru>следствие</ru>
+    <ru>запрос</ru>
+    <ru>расследование</ru>
+    <tr>[ˈɪnkwest]</tr>
+  </word>
+  <word id="35">
+    <eng>rise</eng>
+    <ru>подниматься</ru>
+    <ru>вставать</ru>
+    <ru>расти</ru>
+    <ru>повышаться</ru>
+    <ru>восстать</ru>
+    <ru>воскреснуть</ru>
+    <ru>повышение</ru>
+  </word>
+  <word id="36">
+    <eng>blast</eng>
+    <ru>взрывать</ru>
+    <ru>разрушать</ru>
+  </word>
+  <word id="37">
+    <eng>nurture</eng>
+    <ru>питание</ru>
+    <ru>лелеять</ru>
+    <ru>воспитывать</ru>
+    <tr>[ˈnə:tʃə]</tr>
+  </word>
+  <word id="38">
+    <eng>arcane</eng>
+    <ru>тайный</ru>
+  </word>
+  <word id="39">
+    <eng>perfected</eng>
+    <ru>усовершенствованный</ru>
+  </word>
+  <word id="40">
+    <eng>proud</eng>
+    <ru>гордый</ru>
+    <ru>высокомерный</ru>
+  </word>
+  <word id="41">
+    <eng>loyalty</eng>
+    <ru>лояльность</ru>
+    <ru>привязанность</ru>
+    <tr>[ˈlɔɪəltɪ]</tr>
+  </word>
+  <word id="42">
+    <eng>exception</eng>
+    <ru>исключение</ru>
+    <ru>возражение</ru>
+    <tr>[ɪkˈsepʃən]</tr>
+  </word>
+  <word id="43">
+    <eng>cruelty</eng>
+    <ru>жестокость</ru>
+  </word>
+  <word id="44">
+    <eng>tinker</eng>
+    <ru>чинить</ru>
+    <ru>возиться</ru>
+  </word>
+  <word id="45">
+    <eng>bind</eng>
+    <ru>связывать</ru>
+    <ru>обязывать</ru>
+  </word>
+  <word id="46">
+    <eng>vast</eng>
+    <ru>обширный</ru>
+    <ru>многочисленный</ru>
+  </word>
+  <word id="47">
+    <eng>concussion</eng>
+    <ru>сотрясение</ru>
+    <tr>[kənˈkʌʃən]</tr>
+  </word>
+  <word id="48">
+    <eng>fill</eng>
+    <ru>заполнять</ru>
+    <ru>наполнять</ru>
+    <ru>заполняться</ru>
+  </word>
+  <word id="49">
+    <eng>towering</eng>
+    <ru>высокий</ru>
+  </word>
+  <word id="50">
+    <eng>ounce</eng>
+    <ru>унция</ru>
+    <tr>[auns]</tr>
+  </word>
+  <word id="51">
+    <eng>ferocious</eng>
+    <ru>свирепый</ru>
+    <tr>[fəˈrəuʃəs]</tr>
+  </word>
+  <word id="52">
+    <eng>foolish</eng>
+    <ru>глупый</ru>
+    <ru>бессмысленный</ru>
+    <ru>абсурдный</ru>
+  </word>
+  <word id="53">
+    <eng>thinker</eng>
+    <ru>мыслитель</ru>
+  </word>
+  <word id="54">
+    <eng>chivalry</eng>
+    <ru>галантность</ru>
+    <tr>[ˈʃɪvəlrɪ]</tr>
+  </word>
+  <word id="55">
+    <eng>descendent</eng>
+    <ru>потомок</ru>
+  </word>
+  <word id="56">
+    <eng>beyond</eng>
+    <ru>вне</ru>
+    <ru>по ту сторону</ru>
+    <ru>сверх</ru>
+    <ru>после</ru>
+    <ru>помимо</ru>
+    <ru>за пределами</ru>
+  </word>
+  <word id="57">
+    <eng>inherent</eng>
+    <ru>присущий</ru>
+    <ru>свойственный</ru>
+    <ru>характерный</ru>
+    <ru>неотъемлемый</ru>
+  </word>
+  <word id="58">
+    <eng>initiative</eng>
+    <ru>инициатива</ru>
+  </word>
+  <word id="59">
+    <eng>strategic</eng>
+    <ru>стратегический</ru>
+    <tr>[strəˈti:dʒɪk]</tr>
+  </word>
+  <word id="60">
+    <eng>stretch</eng>
+    <ru>простираться</ru>
+    <ru>растягивать</ru>
+  </word>
+  <word id="61">
+    <eng>along</eng>
+    <ru>вдоль</ru>
+    <ru>вперед</ru>
+  </word>
+  <word id="62">
+    <eng>perform</eng>
+    <ru>выполнять</ru>
+    <ru>совершать</ru>
+    <ru>исполнять</ru>
+    <ru>делать</ru>
+  </word>
+  <word id="63">
+    <eng>entirely</eng>
+    <ru>полностью</ru>
+    <ru>совсем</ru>
+    <tr>[ɪnˈtaɪəlɪ]</tr>
+  </word>
+  <word id="64">
+    <eng>regardless</eng>
+    <ru>независимо</ru>
+    <ru>невнимательный</ru>
+    <ru>ничтожный</ru>
+  </word>
+  <word id="65">
+    <eng>enthusiastic</eng>
+    <ru>восторженный</ru>
+    <ru>энтузиазм</ru>
+    <ru>восторг</ru>
+    <ru>энергичный</ru>
+    <tr>[ɪnˌθju:zɪˈæstɪk]</tr>
+  </word>
+  <word id="66">
+    <eng>pump</eng>
+    <ru>насос</ru>
+  </word>
+  <word id="67">
+    <eng>immortality</eng>
+    <ru>бессмертие</ru>
+  </word>
+  <word id="68">
+    <eng>icy</eng>
+    <ru>ледяной</ru>
+    <ru>льдистый</ru>
+  </word>
+  <word id="69">
+    <eng>explorable</eng>
+    <ru>доступный для исследования</ru>
+  </word>
+  <word id="70">
+    <eng>pale</eng>
+    <ru>бледный</ru>
+    <ru>тусклый</ru>
+    <ru>бледнеть</ru>
+  </word>
+  <word id="71">
+    <eng>vine</eng>
+    <ru>лиана</ru>
+    <ru>лоза</ru>
+  </word>
+  <word id="72">
+    <eng>riddle</eng>
+    <ru>пронизывать</ru>
+  </word>
+  <word id="73">
+    <eng>crawl</eng>
+    <ru>ползать</ru>
+    <ru>кишеть</ru>
+  </word>
+  <word id="74">
+    <eng>fires</eng>
+    <ru>огни</ru>
+  </word>
+  <word id="75">
+    <eng>fealty</eng>
+    <ru>верность</ru>
+    <ru>верность вассала феодалу</ru>
+    <tr>[ˈfi:əltɪ]</tr>
+  </word>
+  <word id="76">
+    <eng>mold</eng>
+    <ru>формировать</ru>
+  </word>
+  <word id="77">
+    <eng>feather</eng>
+    <ru>перо</ru>
+  </word>
+  <word id="78">
+    <eng>ongoing</eng>
+    <ru>продолжающийся</ru>
+    <ru>происходящий в настоящее время</ru>
+  </word>
+  <word id="79">
+    <eng>structure</eng>
+    <ru>структура</ru>
+    <ru>структурировать</ru>
+  </word>
+  <word id="80">
+    <eng>foe</eng>
+    <ru>противник</ru>
+  </word>
+  <word id="81">
+    <eng>maker</eng>
+    <ru>создатель</ru>
+    <ru>производитель</ru>
+  </word>
+  <word id="82">
+    <eng>foothill</eng>
+    <ru>предгорье</ru>
+  </word>
+  <word id="83">
+    <eng>vicious</eng>
+    <ru>порочный</ru>
+    <tr>[ˈvɪʃəs]</tr>
+  </word>
+  <word id="84">
+    <eng>marauding</eng>
+    <ru>мародерство</ru>
+    <tr>[məˈrɔ:dɪŋ]</tr>
+  </word>
+  <word id="85">
+    <eng>evil</eng>
+    <ru>зло</ru>
+    <ru>злой</ru>
+  </word>
+  <word id="86">
+    <eng>match</eng>
+    <ru>матч</ru>
+  </word>
+  <word id="87">
+    <eng>warfare</eng>
+    <ru>война</ru>
+    <ru>боевые действия</ru>
+    <ru>военное дело</ru>
+  </word>
+  <word id="88">
+    <eng>betide</eng>
+    <ru>случаться</ru>
+  </word>
+  <word id="89">
+    <eng>wide</eng>
+    <ru>широкий</ru>
+  </word>
+  <word id="90">
+    <eng>consequence</eng>
+    <ru>последствие</ru>
+    <tr>[ˈkɔnsɪkwəns]</tr>
+  </word>
+  <word id="91">
+    <eng>ancestral</eng>
+    <ru>наследственный</ru>
+    <tr>[ænˈsestrəl]</tr>
+  </word>
+  <word id="92">
+    <eng>animalistic</eng>
+    <ru>животный</ru>
+    <ru>звериный</ru>
+    <tr>[ˌænɪmə'lɪstɪk]</tr>
+  </word>
+  <word id="93">
+    <eng>happily</eng>
+    <ru>счастливо</ru>
+    <ru>довольно</ru>
+    <ru>гармонично</ru>
+    <ru>радостно</ru>
+    <ru>к счастью</ru>
+  </word>
+  <word id="94">
+    <eng>obvious</eng>
+    <ru>очевидно</ru>
+    <ru>очевидный</ru>
+    <tr>[ˈɔbvɪəs]</tr>
+  </word>
+  <word id="95">
+    <eng>adjust</eng>
+    <ru>приспосабливаться</ru>
+    <ru>регулировать</ru>
+  </word>
+  <word id="96">
+    <eng>deed</eng>
+    <ru>дело</ru>
+  </word>
+  <word id="97">
+    <eng>bound</eng>
+    <ru>связанный</ru>
+    <ru>обязанный</ru>
+  </word>
+  <word id="98">
+    <eng>response</eng>
+    <ru>ответ</ru>
+    <ru>реакция</ru>
+    <ru>чувствительность</ru>
+  </word>
+  <word id="99">
+    <eng>swear</eng>
+    <ru>клясться</ru>
+  </word>
+  <word id="100">
+    <eng>regain</eng>
+    <ru>возвращать</ru>
+  </word>
+  <word id="101">
+    <eng>trunk</eng>
+    <ru>ствол</ru>
+    <ru>сундук</ru>
+    <ru>туловище</ru>
+    <ru>хобот</ru>
+  </word>
+  <word id="102">
+    <eng>excel</eng>
+    <ru>превосходить</ru>
+    <ru>выделяться</ru>
+  </word>
+  <word id="103">
+    <eng>goddess</eng>
+    <ru>богиня</ru>
+  </word>
+  <word id="104">
+    <eng>beacon</eng>
+    <ru>указывать путь</ru>
+    <ru>маяк</ru>
+  </word>
+  <word id="105">
+    <eng>pack</eng>
+    <ru>стая</ru>
+  </word>
+  <word id="106">
+    <eng>dispute</eng>
+    <ru>оспаривать</ru>
+    <ru>обсуждать</ru>
+    <ru>дискутировать</ru>
+  </word>
+  <word id="107">
+    <eng>respond</eng>
+    <ru>отвечать</ru>
+    <ru>реагировать</ru>
+  </word>
+  <word id="108">
+    <eng>conquer</eng>
+    <ru>завоевывать</ru>
+    <ru>побеждать</ru>
+    <tr>[ˈkɔŋkə]</tr>
+  </word>
+  <word id="109">
+    <eng>responsive</eng>
+    <ru>быстро реагирующий</ru>
+  </word>
+  <word id="110">
+    <eng>withdraw</eng>
+    <ru>уходить</ru>
+    <ru>отступать</ru>
+  </word>
+  <word id="111">
+    <eng>unbreakable</eng>
+    <ru>нерушимый</ru>
+  </word>
+  <word id="112">
+    <eng>surfacing</eng>
+    <ru>всплытие</ru>
+    <ru>заставлять всплыть</ru>
+    <ru>всплывать на поверхность</ru>
+    <tr>[ˈsə:fisin]</tr>
+  </word>
+  <word id="113">
+    <eng>despoil</eng>
+    <ru>грабить</ru>
+    <ru>ограбить</ru>
+  </word>
+  <word id="114">
+    <eng>siege</eng>
+    <ru>осада</ru>
+  </word>
+  <word id="115">
+    <eng>alarming</eng>
+    <ru>тревожный</ru>
+  </word>
+  <word id="116">
+    <eng>gate</eng>
+    <ru>врата</ru>
+    <ru>ворота</ru>
+    <ru>выход</ru>
+  </word>
+  <word id="117">
+    <eng>flamethrower</eng>
+    <ru>огнемет</ru>
+    <tr>[ˈfleɪmˌθrəuə]</tr>
+  </word>
+  <word id="118">
+    <eng>clash</eng>
+    <ru>сталкиваться</ru>
+    <ru>столкновение</ru>
+  </word>
+  <word id="119">
+    <eng>penalize</eng>
+    <ru>штрафовать</ru>
+  </word>
+  <word id="120">
+    <eng>stir</eng>
+    <ru>будить</ru>
+    <ru>вызывать</ru>
+  </word>
+  <word id="121">
+    <eng>utilize</eng>
+    <ru>использовать</ru>
+  </word>
+  <word id="122">
+    <eng>gang</eng>
+    <ru>банда</ru>
+  </word>
+  <word id="123">
+    <eng>pack up</eng>
+    <ru>собрать</ru>
+  </word>
+  <word id="124">
+    <eng>hardworking</eng>
+    <ru>трудолюбивый</ru>
+  </word>
+  <word id="125">
+    <eng>fiercely</eng>
+    <ru>отчаянно</ru>
+    <ru>свирепо</ru>
+    <ru>неистово</ru>
+  </word>
+  <word id="126">
+    <eng>resilient</eng>
+    <ru>эластичный</ru>
+    <ru>устойчивый</ru>
+    <ru>упругий</ru>
+    <tr>[rɪˈzɪlɪənt]</tr>
+  </word>
+  <word id="127">
+    <eng>scour</eng>
+    <ru>вычищать</ru>
+    <tr>[ˈskauə]</tr>
+  </word>
+  <word id="128">
+    <eng>relentless</eng>
+    <ru>неустанный</ru>
+    <ru>постоянный</ru>
+    <tr>[rɪˈlentlɪs]</tr>
+  </word>
+  <word id="129">
+    <eng>rock</eng>
+    <ru>камень</ru>
+  </word>
+  <word id="130">
+    <eng>forge</eng>
+    <ru>ковать</ru>
+  </word>
+  <word id="131">
+    <eng>stirring</eng>
+    <ru>побуждение</ru>
+  </word>
+  <word id="132">
+    <eng>sorrow</eng>
+    <ru>горе</ru>
+    <ru>горевать</ru>
+  </word>
+  <word id="133">
+    <eng>unique</eng>
+    <ru>уникалльный</ru>
+    <ru>непревзойденный</ru>
+  </word>
+  <word id="134">
+    <eng>sprawl</eng>
+    <ru>растягивать</ru>
+    <tr>[sprɔ:l]</tr>
+  </word>
+  <word id="135">
+    <eng>lab</eng>
+    <ru>лаборатория</ru>
+  </word>
+  <word id="136">
+    <eng>prey</eng>
+    <ru>охотиться</ru>
+    <ru>добыча</ru>
+  </word>
+  <word id="137">
+    <eng>wave</eng>
+    <ru>волна</ru>
+  </word>
+  <word id="138">
+    <eng>unshakeable</eng>
+    <ru>непоколебимый</ru>
+  </word>
+  <word id="139">
+    <eng>environmental</eng>
+    <ru>окружающий</ru>
+    <tr>[ɪnˌvaɪərənˈmentl]</tr>
+  </word>
+  <word id="140">
+    <eng>virtue</eng>
+    <ru>достоинство</ru>
+    <ru>доблесть</ru>
+    <tr>[ˈvə:tju:]</tr>
+  </word>
+  <word id="141">
+    <eng>corrupting</eng>
+    <ru>развращение</ru>
+    <ru>повреждение</ru>
+  </word>
+  <word id="142">
+    <eng>struggle</eng>
+    <ru>борьба</ru>
+    <ru>битва</ru>
+    <ru>сражение</ru>
+    <ru>схватка</ru>
+    <ru>бороться</ru>
+    <ru>биться</ru>
+    <ru>сражаться</ru>
+  </word>
+  <word id="143">
+    <eng>honor</eng>
+    <ru>соблюдать</ru>
+    <ru>честь</ru>
+  </word>
+  <word id="144">
+    <eng>abroad</eng>
+    <ru>за границей</ru>
+    <ru>за границу</ru>
+  </word>
+  <word id="145">
+    <eng>pure</eng>
+    <ru>чистый</ru>
+    <ru>невинный</ru>
+  </word>
+  <word id="146">
+    <eng>settlement</eng>
+    <ru>поселение</ru>
+  </word>
+  <word id="147">
+    <eng>participate</eng>
+    <ru>участвовать</ru>
+    <tr>[pɑ:ˈtɪsɪpeɪt]</tr>
+  </word>
+  <word id="148">
+    <eng>impactful</eng>
+    <ru>эффективный</ru>
+  </word>
+  <word id="149">
+    <eng>wild</eng>
+    <ru>дикий</ru>
+  </word>
+  <word id="150">
+    <eng>recharge</eng>
+    <ru>перезаряжать</ru>
+    <ru>перезарядка</ru>
+  </word>
+  <word id="151">
+    <eng>dynamics</eng>
+    <ru>динамика</ru>
+  </word>
+  <word id="152">
+    <eng>fool</eng>
+    <ru>дурак</ru>
+    <ru>дурачить</ru>
+  </word>
+  <word id="153">
+    <eng>wade</eng>
+    <ru>брод</ru>
+    <ru>пробираться</ru>
+  </word>
+  <word id="154">
+    <eng>setback</eng>
+    <ru>неудача</ru>
+  </word>
+  <word id="155">
+    <eng>recently</eng>
+    <ru>недавно</ru>
+  </word>
+  <word id="156">
+    <eng>creator</eng>
+    <ru>создатель</ru>
+  </word>
+  <word id="157">
+    <eng>nevertheless</eng>
+    <ru>однако</ru>
+    <ru>несмотря на это</ru>
+    <ru>тем не менее</ru>
+    <tr>[ˌnevəðəˈles]</tr>
+  </word>
+  <word id="158">
+    <eng>fault</eng>
+    <ru>ошибка</ru>
+    <ru>провал</ru>
+  </word>
+  <word id="159">
+    <eng>commit</eng>
+    <ru>передавать</ru>
+    <ru>совершать</ru>
+    <ru>соглашаться</ru>
+    <ru>фиксация</ru>
+    <ru>фиксировать</ru>
+  </word>
+  <word id="160">
+    <eng>worth</eng>
+    <ru>стоить</ru>
+    <ru>стоимость</ru>
+  </word>
+  <word id="161">
+    <eng>stake</eng>
+    <ru>доля</ru>
+  </word>
+  <word id="162">
+    <eng>humble</eng>
+    <ru>скромный</ru>
+  </word>
+  <word id="163">
+    <eng>subterranean</eng>
+    <ru>подземный</ru>
+    <tr>[ˌsʌbtəˈreɪnjən]</tr>
+  </word>
+  <word id="164">
+    <eng>gadget</eng>
+    <ru>устройство</ru>
+  </word>
+  <word id="165">
+    <eng>robotic</eng>
+    <ru>автоматизированный</ru>
+  </word>
+  <word id="166">
+    <eng>wander</eng>
+    <ru>бродить</ru>
+    <ru>ходить</ru>
+    <ru>скитание</ru>
+  </word>
+  <word id="167">
+    <eng>obstacle</eng>
+    <ru>препятствие</ru>
+    <tr>[ˈɔbstəkl]</tr>
+  </word>
+  <word id="168">
+    <eng>lie</eng>
+    <ru>ложь</ru>
+    <ru>лгать</ru>
+    <ru>лежать</ru>
+  </word>
+  <word id="169">
+    <eng>unshaken</eng>
+    <ru>непоколебимый</ru>
+    <ru>непоколебимо</ru>
+    <ru>оседлавший</ru>
+  </word>
+  <word id="170">
+    <eng>concern</eng>
+    <ru>проблема</ru>
+    <ru>беспокойство</ru>
+    <ru>интерес</ru>
+    <ru>интересоваться</ru>
+    <ru>заинтересовать</ru>
+    <ru>обеспокоить</ru>
+  </word>
+  <word id="171">
+    <eng>access</eng>
+    <ru>получать доступ</ru>
+    <ru>доступ</ru>
+  </word>
+  <word id="172">
+    <eng>outcast</eng>
+    <ru>изгой</ru>
+    <ru>отбросы</ru>
+  </word>
+  <word id="173">
+    <eng>feline</eng>
+    <ru>кошачий</ru>
+    <tr>[ˈfi:laɪn]</tr>
+  </word>
+  <word id="174">
+    <eng>farmland</eng>
+    <ru>сельхозугодья</ru>
+  </word>
+  <word id="175">
+    <eng>brood</eng>
+    <ru>выводок</ru>
+    <ru>потомство</ru>
+    <ru>вынашивать</ru>
+    <tr>[bru:d]</tr>
+  </word>
+  <word id="176">
+    <eng>appear</eng>
+    <ru>казаться</ru>
+    <ru>появляться</ru>
+  </word>
+  <word id="177">
+    <eng>awaken</eng>
+    <ru>пробуждать</ru>
+    <ru>просыпаться</ru>
+    <ru>осознавать</ru>
+  </word>
+  <word id="178">
+    <eng>cunning</eng>
+    <ru>хитрость</ru>
+    <ru>хитрый</ru>
+  </word>
+  <word id="179">
+    <eng>deep</eng>
+    <ru>глубокий</ru>
+  </word>
+  <word id="180">
+    <eng>explosive</eng>
+    <ru>взрывчатое вещество</ru>
+    <tr>[ɪksˈpləusɪv]</tr>
+  </word>
+  <word id="181">
+    <eng>granted</eng>
+    <ru>предоставлять</ru>
+  </word>
+  <word id="182">
+    <eng>agile</eng>
+    <ru>проворный</ru>
+    <ru>маневренность</ru>
+    <ru>проворность</ru>
+    <tr>[ˈædʒaɪl]</tr>
+  </word>
+  <word id="183">
+    <eng>embrace</eng>
+    <ru>объятие</ru>
+    <ru>охватывать</ru>
+    <ru>обнимать</ru>
+    <ru>обниматься</ru>
+    <tr>[ɪmˈbreɪs]</tr>
+  </word>
+  <word id="184">
+    <eng>versatile</eng>
+    <ru>универсальный</ru>
+    <ru>разносторонний</ru>
+    <tr>[ˈvə:sətaɪl]</tr>
+  </word>
+  <word id="185">
+    <eng>tall</eng>
+    <ru>высокий</ru>
+  </word>
+  <word id="186">
+    <eng>prosper</eng>
+    <ru>процветать</ru>
+  </word>
+  <word id="187">
+    <eng>tremendous</eng>
+    <ru>огромный</ru>
+    <tr>[trɪˈmendəs]</tr>
+  </word>
+  <word id="188">
+    <eng>grove</eng>
+    <ru>роща</ru>
+  </word>
+  <word id="189">
+    <eng>acquire</eng>
+    <ru>приобретать</ru>
+  </word>
+  <word id="190">
+    <eng>seemingly</eng>
+    <ru>казаться</ru>
+    <ru>кажущийся</ru>
+    <ru>по-видимому</ru>
+    <tr>[ˈsi:mɪŋlɪ]</tr>
+  </word>
+  <word id="191">
+    <eng>wield</eng>
+    <ru>владеть</ru>
+    <tr>[wi:ld]</tr>
+  </word>
+  <word id="192">
+    <eng>hazard</eng>
+    <ru>опасность</ru>
+    <ru>рисковать</ru>
+  </word>
+  <word id="193">
+    <eng>coast</eng>
+    <ru>побережье</ru>
+    <ru>берег</ru>
+  </word>
+  <word id="194">
+    <eng>reach</eng>
+    <ru>достигать</ru>
+    <ru>досягаемость</ru>
+  </word>
+  <word id="195">
+    <eng>flock</eng>
+    <ru>стая</ru>
+    <ru>множество</ru>
+  </word>
+  <word id="196">
+    <eng>challenge</eng>
+    <ru>трудность</ru>
+    <ru>испытание</ru>
+    <ru>вызов</ru>
+    <ru>сложная задача</ru>
+  </word>
+  <word id="197">
+    <eng>flew</eng>
+    <ru>летел</ru>
+  </word>
+  <word id="198">
+    <eng>backpack</eng>
+    <ru>рюкзак</ru>
+    <ru>ранец</ru>
+  </word>
+  <word id="199">
+    <eng>blossom</eng>
+    <ru>цвести</ru>
+    <ru>цветок</ru>
+  </word>
+  <word id="200">
+    <eng>ash</eng>
+    <ru>прах</ru>
+    <ru>пепел</ru>
+    <ru>зола</ru>
+  </word>
+  <word id="201">
+    <eng>blind</eng>
+    <ru>слепой</ru>
+    <ru>ослеплять</ru>
+  </word>
+  <word id="202">
+    <eng>interactive</eng>
+    <ru>взаимодействующий</ru>
+    <ru>согласованный</ru>
+  </word>
+  <word id="203">
+    <eng>entwine</eng>
+    <ru>переплетать</ru>
+  </word>
+  <word id="204">
+    <eng>rampage</eng>
+    <ru>неистовствовать</ru>
+    <tr>[ræm'peɪʤ]</tr>
+  </word>
+  <word id="205">
+    <eng>collective</eng>
+    <ru>коллектив</ru>
+    <ru>коллективный</ru>
+  </word>
+  <word id="206">
+    <eng>determined</eng>
+    <ru>решительный</ru>
+    <ru>определенный</ru>
+  </word>
+  <word id="207">
+    <eng>particular</eng>
+    <ru>особый</ru>
+    <ru>специфический</ru>
+  </word>
+  <word id="208">
+    <eng>pistol</eng>
+    <ru>пистолет</ru>
+  </word>
+  <word id="209">
+    <eng>side</eng>
+    <ru>сторона</ru>
+  </word>
+  <word id="210">
+    <eng>landscape</eng>
+    <ru>пейзаж</ru>
+    <ru>ландшафт</ru>
+  </word>
+  <word id="211">
+    <eng>famed</eng>
+    <ru>знаменитый</ru>
+  </word>
+  <word id="212">
+    <eng>range</eng>
+    <ru>дистанция</ru>
+    <ru>круг</ru>
+    <ru>зона</ru>
+    <ru>располагаться</ru>
+  </word>
+  <word id="213">
+    <eng>uniformly</eng>
+    <ru>однородно</ru>
+    <ru>равномерно</ru>
+    <ru>однообразно</ru>
+    <ru>одинаково</ru>
+  </word>
+  <word id="214">
+    <eng>roam</eng>
+    <ru>бродить</ru>
+  </word>
+  <word id="215">
+    <eng>extremely</eng>
+    <ru>чрезвычайно</ru>
+    <ru>крайне</ru>
+    <ru>чрезмерно</ru>
+  </word>
+  <word id="216">
+    <eng>feat</eng>
+    <ru>подвиг</ru>
+  </word>
+  <word id="217">
+    <eng>static</eng>
+    <ru>помехи</ru>
+  </word>
+  <word id="218">
+    <eng>edge</eng>
+    <ru>край</ru>
+  </word>
+  <word id="219">
+    <eng>flowing</eng>
+    <ru>течение</ru>
+    <ru>плавный</ru>
+    <ru>течь</ru>
+  </word>
+  <word id="220">
+    <eng>military</eng>
+    <ru>войска</ru>
+    <ru>военный</ru>
+  </word>
+  <word id="221">
+    <eng>eagerness</eng>
+    <ru>рвение</ru>
+    <ru>пыл</ru>
+    <ru>старание</ru>
+    <tr>['iːgənəs]</tr>
+  </word>
+  <word id="222">
+    <eng>strong-willed</eng>
+    <ru>решительный</ru>
+  </word>
+  <word id="223">
+    <eng>brilliant</eng>
+    <ru>замечательный</ru>
+    <ru>блестящий</ru>
+    <ru>выдающийся</ru>
+  </word>
+  <word id="224">
+    <eng>fateful</eng>
+    <ru>роковой</ru>
+  </word>
+  <word id="225">
+    <eng>cooperation</eng>
+    <ru>сотрудничество</ru>
+    <tr>[kəuˌɔpəˈreɪʃən]</tr>
+  </word>
+  <word id="226">
+    <eng>among</eng>
+    <ru>среди</ru>
+  </word>
+  <word id="227">
+    <eng>patron</eng>
+    <ru>покровитель</ru>
+  </word>
+  <word id="228">
+    <eng>praise</eng>
+    <ru>хвалить</ru>
+    <ru>похвала</ru>
+  </word>
+  <word id="229">
+    <eng>waste</eng>
+    <ru>мусор</ru>
+    <ru>отходы</ru>
+    <ru>отбросы</ru>
+    <ru>трата</ru>
+  </word>
+  <word id="230">
+    <eng>ranging</eng>
+    <ru>расположение</ru>
+  </word>
+  <word id="231">
+    <eng>charming</eng>
+    <ru>очаровательный</ru>
+    <ru>чарующий</ru>
+    <tr>[ˈtʃɑ:mɪŋ]</tr>
+  </word>
+  <word id="232">
+    <eng>glean</eng>
+    <ru>извлечь</ru>
+    <ru>подбирать</ru>
+    <ru>собирать</ru>
+  </word>
+  <word id="233">
+    <eng>smart</eng>
+    <ru>умный</ru>
+    <ru>элегантный</ru>
+    <ru>остроумный</ru>
+  </word>
+  <word id="234">
+    <eng>twilight</eng>
+    <ru>сумерки</ru>
+  </word>
+  <word id="235">
+    <eng>summon</eng>
+    <ru>вызывать</ru>
+    <ru>проявлять</ru>
+    <ru>призывать</ru>
+  </word>
+  <word id="236">
+    <eng>ghostly</eng>
+    <ru>призрачный</ru>
+  </word>
+  <word id="237">
+    <eng>minion</eng>
+    <ru>любимец</ru>
+    <ru>последователь</ru>
+    <ru>слуга</ru>
+    <ru>прислужник</ru>
+  </word>
+  <word id="238">
+    <eng>century</eng>
+    <ru>столетие</ru>
+    <ru>век</ru>
+    <tr>[ˈsentʃurɪ]</tr>
+  </word>
+  <word id="239">
+    <eng>racial</eng>
+    <ru>расовый</ru>
+  </word>
+  <word id="240">
+    <eng>flexible</eng>
+    <ru>гибкий</ru>
+    <ru>подвижный</ru>
+    <ru>эластичный</ru>
+    <ru>упругий</ru>
+  </word>
+  <word id="241">
+    <eng>fortify</eng>
+    <ru>укреплять</ru>
+  </word>
+  <word id="242">
+    <eng>destiny</eng>
+    <ru>судьба</ru>
+  </word>
+  <word id="243">
+    <eng>above</eng>
+    <ru>выше</ru>
+  </word>
+  <word id="244">
+    <eng>thief</eng>
+    <ru>вор</ru>
+  </word>
+  <word id="245">
+    <eng>embattle</eng>
+    <ru>вести бой</ru>
+  </word>
+  <word id="246">
+    <eng>college</eng>
+    <ru>коллегия</ru>
+  </word>
+  <word id="247">
+    <eng>delude</eng>
+    <ru>вводить в заблуждение</ru>
+    <tr>[dɪˈlu:d]</tr>
+  </word>
+  <word id="248">
+    <eng>beseech</eng>
+    <ru>умолять</ru>
+  </word>
+  <word id="249">
+    <eng>team up</eng>
+    <ru>объединяться</ru>
+  </word>
+  <word id="250">
+    <eng>immobile</eng>
+    <ru>неподвижный</ru>
+    <tr>[ɪˈməubaɪl]</tr>
+  </word>
+  <word id="251">
+    <eng>bond</eng>
+    <ru>связывать</ru>
+    <ru>связь</ru>
+  </word>
+  <word id="252">
+    <eng>prowl</eng>
+    <ru>бродить</ru>
+    <ru>рысканье</ru>
+  </word>
+  <word id="253">
+    <eng>objective</eng>
+    <ru>цель</ru>
+  </word>
+  <word id="254">
+    <eng>generation</eng>
+    <ru>производство</ru>
+    <ru>поколение</ru>
+    <ru>род</ru>
+  </word>
+  <word id="255">
+    <eng>repair</eng>
+    <ru>ремонт</ru>
+    <ru>ремонтировать</ru>
+    <ru>чинить</ru>
+  </word>
+  <word id="256">
+    <eng>await</eng>
+    <ru>ждать</ru>
+    <ru>ожидать</ru>
+  </word>
+  <word id="257">
+    <eng>valiant</eng>
+    <ru>отважный</ru>
+    <ru>храбрый</ru>
+    <tr>[ˈvæljənt]</tr>
+  </word>
+  <word id="258">
+    <eng>loner</eng>
+    <ru>одиночка</ru>
+  </word>
+  <word id="259">
+    <eng>battleground</eng>
+    <ru>поле битвы</ru>
+  </word>
+  <word id="260">
+    <eng>ogre</eng>
+    <ru>людоед</ru>
+    <tr>[ˈəuɡə]</tr>
+  </word>
+  <word id="261">
+    <eng>adversity</eng>
+    <ru>беда</ru>
+    <ru>бедствие</ru>
+  </word>
+  <word id="262">
+    <eng>tide</eng>
+    <ru>поток</ru>
+    <ru>ход</ru>
+  </word>
+  <word id="263">
+    <eng>reward</eng>
+    <ru>вознаграждать</ru>
+    <ru>награда</ru>
+  </word>
+  <word id="264">
+    <eng>assert</eng>
+    <ru>утверждать</ru>
+    <ru>самоутверждаться</ru>
+    <ru>заявлять</ru>
+    <ru>отстаивать</ru>
+    <tr>[əˈsə:t]</tr>
+  </word>
+  <word id="265">
+    <eng>manufacturer</eng>
+    <ru>изготовитель</ru>
+    <ru>производитель</ru>
+  </word>
+  <word id="266">
+    <eng>will</eng>
+    <ru>воля</ru>
+    <ru>желание</ru>
+    <ru>сила воли</ru>
+    <ru>велеть</ru>
+  </word>
+  <word id="267">
+    <eng>mere</eng>
+    <ru>простой</ru>
+    <ru>чистый</ru>
+    <ru>абсолютный</ru>
+    <tr>[mɪə]</tr>
+  </word>
+  <word id="268">
+    <eng>secretive</eng>
+    <ru>скрытый</ru>
+    <ru>замкнутый</ru>
+  </word>
+  <word id="269">
+    <eng>metropolis</eng>
+    <ru>столица</ru>
+    <tr>[mɪˈtrɔpəlɪs]</tr>
+  </word>
+  <word id="270">
+    <eng>stepping</eng>
+    <ru>продвижение</ru>
+  </word>
+  <word id="271">
+    <eng>mighty</eng>
+    <ru>могущественный</ru>
+  </word>
+  <word id="272">
+    <eng>footing</eng>
+    <ru>опора</ru>
+  </word>
+  <word id="273">
+    <eng>effective</eng>
+    <ru>эффективный</ru>
+    <ru>эффектный</ru>
+  </word>
+  <word id="274">
+    <eng>entire</eng>
+    <ru>целый</ru>
+    <ru>цельный</ru>
+    <ru>полный</ru>
+  </word>
+  <word id="275">
+    <eng>pit</eng>
+    <ru>стравливать</ru>
+  </word>
+  <word id="276">
+    <eng>intrigue</eng>
+    <ru>интрига</ru>
+    <ru>интриговать</ru>
+    <ru>заинтриговать</ru>
+    <tr>[ɪnˈtri:ɡ]</tr>
+  </word>
+  <word id="277">
+    <eng>rule</eng>
+    <ru>управлять</ru>
+    <ru>правило</ru>
+    <ru>постановлять</ru>
+  </word>
+  <word id="278">
+    <eng>floating</eng>
+    <ru>плавающий</ru>
+  </word>
+  <word id="279">
+    <eng>opponent</eng>
+    <ru>противник</ru>
+  </word>
+  <word id="280">
+    <eng>enlist</eng>
+    <ru>вербовать</ru>
+  </word>
+  <word id="281">
+    <eng>barrage</eng>
+    <ru>шквал</ru>
+  </word>
+  <word id="282">
+    <eng>number-crunching</eng>
+    <ru>сложные математические расчеты</ru>
+  </word>
+  <word id="283">
+    <eng>invent</eng>
+    <ru>изобретать</ru>
+  </word>
+  <word id="284">
+    <eng>earn</eng>
+    <ru>зарабатывать</ru>
+  </word>
+  <word id="285">
+    <eng>fellow</eng>
+    <ru>товарищ</ru>
+    <ru>приятель</ru>
+  </word>
+  <word id="286">
+    <eng>steal</eng>
+    <ru>кража</ru>
+    <ru>украсть</ru>
+    <ru>красть</ru>
+  </word>
+  <word id="287">
+    <eng>grand</eng>
+    <ru>великий</ru>
+  </word>
+  <word id="288">
+    <eng>refuse</eng>
+    <ru>отказываться</ru>
+    <ru>отказывать</ru>
+    <ru>отвергать</ru>
+    <ru>мусор</ru>
+  </word>
+  <word id="289">
+    <eng>confront</eng>
+    <ru>противостоять</ru>
+  </word>
+  <word id="290">
+    <eng>area</eng>
+    <ru>область</ru>
+    <ru>зона</ru>
+    <ru>участок</ru>
+    <ru>пространство</ru>
+  </word>
+  <word id="291">
+    <eng>ally</eng>
+    <ru>союзник</ru>
+  </word>
+  <word id="292">
+    <eng>guide</eng>
+    <ru>вести</ru>
+  </word>
+  <word id="293">
+    <eng>noble</eng>
+    <ru>благородный</ru>
+    <ru>дворянин</ru>
+  </word>
+  <word id="294">
+    <eng>act</eng>
+    <ru>играть</ru>
+    <ru>сыграть</ru>
+    <ru>акт</ru>
+    <ru>действие</ru>
+  </word>
+  <word id="295">
+    <eng>gain</eng>
+    <ru>получать</ru>
+    <ru>достигать</ru>
+    <ru>приобретать</ru>
+    <ru>преимущество</ru>
+    <ru>прибыль</ru>
+  </word>
+  <word id="296">
+    <eng>dominance</eng>
+    <ru>господство</ru>
+    <ru>преобладание</ru>
+  </word>
+  <word id="297">
+    <eng>otherwise</eng>
+    <ru>иначе</ru>
+  </word>
+  <word id="298">
+    <eng>projectile</eng>
+    <ru>снаряд</ru>
+  </word>
+  <word id="299">
+    <eng>continual</eng>
+    <ru>непрерывный</ru>
+  </word>
+  <word id="300">
+    <eng>treasure</eng>
+    <ru>сокровище</ru>
+    <tr>[ˈtreʒə]</tr>
+  </word>
+  <word id="301">
+    <eng>tomb</eng>
+    <ru>могила</ru>
+  </word>
+  <word id="302">
+    <eng>meanwhile</eng>
+    <ru>тем временем</ru>
+  </word>
+  <word id="303">
+    <eng>figure</eng>
+    <ru>число</ru>
+    <ru>фигура</ru>
+    <ru>деятель</ru>
+    <tr>[ˈfɪɡə]</tr>
+  </word>
+  <word id="304">
+    <eng>bloody</eng>
+    <ru>кровавый</ru>
+    <ru>проклятый</ru>
+  </word>
+  <word id="305">
+    <eng>refugee</eng>
+    <ru>беженец</ru>
+    <ru>беженка</ru>
+  </word>
+  <word id="306">
+    <eng>flesh</eng>
+    <ru>пробуждать кровожадные инстинкты</ru>
+    <ru>плоть</ru>
+    <ru>мякоть</ru>
+  </word>
+  <word id="307">
+    <eng>allies</eng>
+    <ru>союзники</ru>
+  </word>
+  <word id="308">
+    <eng>rebuild</eng>
+    <ru>восстанавливать</ru>
+  </word>
+  <word id="309">
+    <eng>independent</eng>
+    <ru>независимый</ru>
+  </word>
+  <word id="310">
+    <eng>mad</eng>
+    <ru>безумный</ru>
+    <ru>сумасшедший</ru>
+    <ru>обезумевший</ru>
+    <ru>дикий</ru>
+    <ru>раздраженный</ru>
+    <ru>безудержно веселый</ru>
+  </word>
+  <word id="311">
+    <eng>taming</eng>
+    <ru>приручение</ru>
+  </word>
+  <word id="312">
+    <eng>shadowy</eng>
+    <ru>темный</ru>
+  </word>
+  <word id="313">
+    <eng>awake</eng>
+    <ru>не спящий</ru>
+    <ru>будить</ru>
+  </word>
+  <word id="314">
+    <eng>forsake</eng>
+    <ru>оставлять</ru>
+  </word>
+  <word id="315">
+    <eng>savage</eng>
+    <ru>дикарь</ru>
+    <ru>дикий</ru>
+    <tr>[ˈsævɪdʒ]</tr>
+  </word>
+  <word id="316">
+    <eng>stealing</eng>
+    <ru>кража</ru>
+    <ru>захват</ru>
+    <ru>захватывание</ru>
+    <ru>воровство</ru>
+  </word>
+  <word id="317">
+    <eng>alike</eng>
+    <ru>подобно</ru>
+  </word>
+  <word id="318">
+    <eng>endless</eng>
+    <ru>бесконечный</ru>
+  </word>
+  <word id="319">
+    <eng>onward</eng>
+    <ru>вперед</ru>
+    <ru>прогрессивный</ru>
+  </word>
+  <word id="320">
+    <eng>race</eng>
+    <ru>гонка</ru>
+    <ru>раса</ru>
+    <ru>расовый</ru>
+  </word>
+  <word id="321">
+    <eng>depth</eng>
+    <ru>глубина</ru>
+    <ru>бездна</ru>
+    <ru>пучина</ru>
+  </word>
+  <word id="322">
+    <eng>tight</eng>
+    <ru>жесткий</ru>
+    <ru>строгий</ru>
+  </word>
+  <word id="323">
+    <eng>assistance</eng>
+    <ru>помощь</ru>
+    <ru>содействие</ru>
+  </word>
+  <word id="324">
+    <eng>rare</eng>
+    <ru>редкий</ru>
+  </word>
+  <word id="325">
+    <eng>grounds</eng>
+    <ru>территория</ru>
+  </word>
+  <word id="326">
+    <eng>plain</eng>
+    <ru>равнина</ru>
+  </word>
+  <word id="327">
+    <eng>timing</eng>
+    <ru>выбор времени</ru>
+    <ru>синхронизация</ru>
+  </word>
+  <word id="328">
+    <eng>flurry</eng>
+    <ru>шквал</ru>
+  </word>
+  <word id="329">
+    <eng>shine</eng>
+    <ru>сиять</ru>
+    <ru>сияние</ru>
+  </word>
+  <word id="330">
+    <eng>crucible</eng>
+    <ru>суровое испытание</ru>
+    <tr>[ˈkru:sɪbl]</tr>
+  </word>
+  <word id="331">
+    <eng>confidence</eng>
+    <ru>уверенность</ru>
+    <ru>доверие</ru>
+  </word>
+  <word id="332">
+    <eng>strain</eng>
+    <ru>напрягать</ru>
+    <ru>напряженный</ru>
+    <ru>напряжение</ru>
+  </word>
+  <word id="333">
+    <eng>perceive</eng>
+    <ru>чувствовать</ru>
+    <ru>ощущать</ru>
+  </word>
+  <word id="334">
+    <eng>forced</eng>
+    <ru>принудительный</ru>
+    <ru>вынужденный</ru>
+  </word>
+  <word id="335">
+    <eng>beneath</eng>
+    <ru>под</ru>
+    <ru>внизу</ru>
+    <ru>снизу</ru>
+  </word>
+  <word id="336">
+    <eng>embody</eng>
+    <ru>воплощать</ru>
+  </word>
+  <word id="337">
+    <eng>raven</eng>
+    <ru>ворон</ru>
+  </word>
+  <word id="338">
+    <eng>encourage</eng>
+    <ru>поощрять</ru>
+  </word>
+  <word id="339">
+    <eng>divinity</eng>
+    <ru>богословие</ru>
+    <ru>божество</ru>
+    <ru>божественность</ru>
+    <tr>[dɪˈvɪnɪtɪ]</tr>
+  </word>
+  <word id="340">
+    <eng>natural</eng>
+    <ru>естественный</ru>
+    <ru>натуральный</ru>
+    <tr>[ˈnætʃrəl]</tr>
+  </word>
+  <word id="341">
+    <eng>settle</eng>
+    <ru>обосновываться</ru>
+  </word>
+  <word id="342">
+    <eng>customize</eng>
+    <ru>настраивать</ru>
+  </word>
+  <word id="343">
+    <eng>vanish</eng>
+    <ru>исчезать</ru>
+    <ru>скрыться</ru>
+  </word>
+  <word id="344">
+    <eng>determine</eng>
+    <ru>решать</ru>
+    <ru>определять</ru>
+    <ru>настраивать</ru>
+    <ru>определяться</ru>
+    <tr>[dɪˈtə:mɪn]</tr>
+  </word>
+  <word id="345">
+    <eng>bold</eng>
+    <ru>смелый</ru>
+    <ru>отважный</ru>
+    <ru>храбрый</ru>
+  </word>
+  <word id="346">
+    <eng>personality</eng>
+    <ru>индивидуальность</ru>
+    <ru>личность</ru>
+  </word>
+  <word id="347">
+    <eng>victor</eng>
+    <ru>победитель</ru>
+  </word>
+  <word id="348">
+    <eng>immediate</eng>
+    <ru>непосредственный</ru>
+    <tr>[ɪˈmi:djət]</tr>
+  </word>
+  <word id="349">
+    <eng>devastating</eng>
+    <ru>разрушительный</ru>
+  </word>
+  <word id="350">
+    <eng>wreak</eng>
+    <ru>наносить</ru>
+    <ru>причинять</ru>
+    <ru>сеять</ru>
+    <tr>[ri:k]</tr>
+  </word>
+  <word id="351">
+    <eng>hazardous</eng>
+    <ru>опасный</ru>
+    <ru>рискованный</ru>
+    <tr>[ˈhæzədəs]</tr>
+  </word>
+  <word id="352">
+    <eng>grip</eng>
+    <ru>захватывать</ru>
+    <ru>держать</ru>
+    <ru>власть</ru>
+    <ru>захват</ru>
+  </word>
+  <word id="353">
+    <eng>vitally</eng>
+    <ru>жизненно</ru>
+    <ru>фатально</ru>
+    <tr>[ˈvaɪtəlɪ]</tr>
+  </word>
+  <word id="354">
+    <eng>harrowing</eng>
+    <ru>мучительный</ru>
+  </word>
+  <word id="355">
+    <eng>advantage</eng>
+    <ru>преимущество</ru>
+    <ru>способствовать</ru>
+  </word>
+  <word id="356">
+    <eng>tend</eng>
+    <ru>как правило</ru>
+    <ru>править</ru>
+    <ru>склонять</ru>
+    <ru>склонность</ru>
+  </word>
+  <word id="357">
+    <eng>awakening</eng>
+    <ru>пробуждение</ru>
+  </word>
+  <word id="358">
+    <eng>tale</eng>
+    <ru>рассказ</ru>
+  </word>
+  <word id="359">
+    <eng>curiosity</eng>
+    <ru>любопытство</ru>
+    <ru>редкость</ru>
+    <ru>любознательность</ru>
+  </word>
+  <word id="360">
+    <eng>loose-knit</eng>
+    <ru>подпольный</ru>
+  </word>
+  <word id="361">
+    <eng>weakling</eng>
+    <ru>слабак</ru>
+    <ru>размазня</ru>
+  </word>
+  <word id="362">
+    <eng>cycle</eng>
+    <ru>цикл</ru>
+    <ru>цикличный</ru>
+  </word>
+  <word id="363">
+    <eng>security</eng>
+    <ru>охрана</ru>
+    <ru>безопасность</ru>
+  </word>
+  <word id="364">
+    <eng>produce</eng>
+    <ru>продукт</ru>
+    <ru>продукция</ru>
+    <ru>производить</ru>
+  </word>
+  <word id="365">
+    <eng>spare</eng>
+    <ru>экономить</ru>
+    <ru>сэкономить</ru>
+    <ru>запасной</ru>
+    <ru>запчасть</ru>
+    <ru>щадить</ru>
+    <ru>жалеть</ru>
+  </word>
+  <word id="366">
+    <eng>involve</eng>
+    <ru>вовлекать</ru>
+    <ru>содержать</ru>
+  </word>
+  <word id="367">
+    <eng>fray</eng>
+    <ru>изнашивать</ru>
+    <ru>изнашиваться</ru>
+    <ru>драка</ru>
+    <ru>сражение</ru>
+  </word>
+  <word id="368">
+    <eng>exact</eng>
+    <ru>точный</ru>
+  </word>
+  <word id="369">
+    <eng>homeland</eng>
+    <ru>родина</ru>
+  </word>
+  <word id="370">
+    <eng>ingenuity</eng>
+    <ru>изобретательность</ru>
+  </word>
+  <word id="371">
+    <eng>sentient beings</eng>
+    <ru>разумные существа</ru>
+  </word>
+  <word id="372">
+    <eng>menace</eng>
+    <ru>угроза</ru>
+  </word>
+  <word id="373">
+    <eng>surety</eng>
+    <ru>гарантия</ru>
+    <ru>залог</ru>
+  </word>
+  <word id="374">
+    <eng>bustle</eng>
+    <ru>суматоха</ru>
+    <ru>суетиться</ru>
+  </word>
+  <word id="375">
+    <eng>roughly</eng>
+    <ru>примерно</ru>
+    <tr>[ˈrʌflɪ]</tr>
+  </word>
+  <word id="376">
+    <eng>disputed</eng>
+    <ru>спорный</ru>
+  </word>
+  <word id="377">
+    <eng>dampen</eng>
+    <ru>расхолаживать</ru>
+    <ru>ослаблять</ru>
+  </word>
+  <word id="378">
+    <eng>social</eng>
+    <ru>социальный</ru>
+    <ru>общительный</ru>
+  </word>
+  <word id="379">
+    <eng>diminutive</eng>
+    <ru>крошечный</ru>
+    <tr>[dɪˈmɪnjutɪv]</tr>
+  </word>
+  <word id="380">
+    <eng>interact</eng>
+    <ru>взаимодействовать</ru>
+    <tr>[ˌɪntərˈækt]</tr>
+  </word>
+  <word id="381">
+    <eng>master</eng>
+    <ru>владелец</ru>
+    <ru>мастер</ru>
+    <ru>знаток своего дела</ru>
+    <ru>учитель</ru>
+    <ru>справляться</ru>
+    <ru>осваивать</ru>
+  </word>
+  <word id="382">
+    <eng>punishing</eng>
+    <ru>наказание</ru>
+  </word>
+  <word id="383">
+    <eng>foliage</eng>
+    <ru>листва</ru>
+    <ru>зелень</ru>
+    <ru>растительность</ru>
+    <tr>[ˈfəulɪɪdʒ]</tr>
+  </word>
+  <word id="384">
+    <eng>impact</eng>
+    <ru>воздействие</ru>
+  </word>
+  <word id="385">
+    <eng>centaur</eng>
+    <ru>кентавр</ru>
+  </word>
+  <word id="386">
+    <eng>havoc</eng>
+    <ru>опустошение</ru>
+    <tr>[ˈhævək]</tr>
+  </word>
+  <word id="387">
+    <eng>gripping plot</eng>
+    <ru>захватывающий сюжет</ru>
+  </word>
+  <word id="388">
+    <eng>delve</eng>
+    <ru>копаться</ru>
+    <tr>[delv]</tr>
+  </word>
+  <word id="389">
+    <eng>footstep</eng>
+    <ru>шаг</ru>
+  </word>
+  <word id="390">
+    <eng>lead</eng>
+    <ru>вести</ru>
+    <ru>возглавлять</ru>
+  </word>
+  <word id="391">
+    <eng>espionage</eng>
+    <ru>шпионаж</ru>
+    <tr>[ˌespɪəˈnɑ:ʒ]</tr>
+  </word>
+  <word id="392">
+    <eng>defend</eng>
+    <ru>защищать</ru>
+  </word>
+  <word id="393">
+    <eng>within</eng>
+    <ru>внутри</ru>
+    <ru>в</ru>
+    <ru>в пределах</ru>
+  </word>
+  <word id="394">
+    <eng>solver</eng>
+    <ru>решатель</ru>
+  </word>
+  <word id="395">
+    <eng>rolling hills</eng>
+    <ru>холмистая местность</ru>
+  </word>
+  <word id="396">
+    <eng>clearly</eng>
+    <ru>четко</ru>
+    <ru>ясно</ru>
+    <ru>явно</ru>
+    <ru>отчетливо</ru>
+  </word>
+  <word id="397">
+    <eng>ambition</eng>
+    <ru>амбиция</ru>
+    <ru>стремление</ru>
+  </word>
+  <word id="398">
+    <eng>heat</eng>
+    <ru>тепло</ru>
+    <ru>нагрев</ru>
+    <ru>температура</ru>
+  </word>
+  <word id="399">
+    <eng>purpose</eng>
+    <ru>цель</ru>
+  </word>
+  <word id="400">
+    <eng>herald</eng>
+    <ru>объявлять</ru>
+    <ru>предвещать</ru>
+    <ru>предвестник</ru>
+    <ru>глашатай</ru>
+    <ru>вестник</ru>
+  </word>
+  <word id="401">
+    <eng>reshape</eng>
+    <ru>изменять</ru>
+  </word>
+  <word id="402">
+    <eng>ruthless</eng>
+    <ru>безжалостный</ru>
+  </word>
+  <word id="403">
+    <eng>insurgency</eng>
+    <ru>бунт</ru>
+    <ru>восстание</ru>
+    <ru>мятеж</ru>
+    <tr>[ɪn'sɜːʤ(ə)n(t)sɪ]</tr>
+  </word>
+  <word id="404">
+    <eng>vengeful</eng>
+    <ru>мстительный</ru>
+  </word>
+  <word id="405">
+    <eng>mayhem</eng>
+    <ru>погром</ru>
+  </word>
+  <word id="406">
+    <eng>surrounding</eng>
+    <ru>окружение</ru>
+    <ru>окружающий</ru>
+    <ru>ближайший</ru>
+  </word>
+  <word id="407">
+    <eng>iconic</eng>
+    <ru>культовый</ru>
+    <ru>иконический</ru>
+    <tr>[aɪˈkɔnɪk]</tr>
+  </word>
+  <word id="408">
+    <eng>arch</eng>
+    <ru>выгибать</ru>
+    <ru>арка</ru>
+    <ru>дуга</ru>
+  </word>
+  <word id="409">
+    <eng>militaristic</eng>
+    <ru>милитаристский</ru>
+  </word>
+  <word id="410">
+    <eng>grow</eng>
+    <ru>выращивать</ru>
+    <ru>вырастать</ru>
+  </word>
+  <word id="411">
+    <eng>dominion</eng>
+    <ru>господство</ru>
+  </word>
+  <word id="412">
+    <eng>footsteps</eng>
+    <ru>следы</ru>
+  </word>
+  <word id="413">
+    <eng>mode</eng>
+    <ru>способ</ru>
+    <ru>метод</ru>
+    <ru>режим</ru>
+  </word>
+  <word id="414">
+    <eng>searing</eng>
+    <ru>жгучий</ru>
+  </word>
+  <word id="415">
+    <eng>don</eng>
+    <ru>надевать</ru>
+  </word>
+  <word id="416">
+    <eng>deploy</eng>
+    <ru>развертывать</ru>
+  </word>
+  <word id="417">
+    <eng>frequency</eng>
+    <ru>частота</ru>
+    <ru>периодичность</ru>
+    <tr>[ˈfri:kwənsɪ]</tr>
+  </word>
+  <word id="418">
+    <eng>grandiose</eng>
+    <ru>грандиозный</ru>
+    <tr>[ˈɡrændɪəus]</tr>
+  </word>
+  <word id="419">
+    <eng>claim</eng>
+    <ru>утверждать</ru>
+    <ru>требовать</ru>
+  </word>
+  <word id="420">
+    <eng>arrival</eng>
+    <ru>прибытие</ru>
+  </word>
+  <word id="421">
+    <eng>wayfarer</eng>
+    <ru>странник</ru>
+    <ru>странница</ru>
+    <tr>[ˈweɪˌfɛərə]</tr>
+  </word>
+  <word id="422">
+    <eng>perils</eng>
+    <ru>риски</ru>
+  </word>
+  <word id="423">
+    <eng>dusk</eng>
+    <ru>сумрак</ru>
+  </word>
+  <word id="424">
+    <eng>evolve</eng>
+    <ru>развивать</ru>
+    <ru>развиваться</ru>
+  </word>
+  <word id="425">
+    <eng>defensive</eng>
+    <ru>оборонительный</ru>
+    <ru>оборона</ru>
+    <ru>защитный</ru>
+    <ru>защита</ru>
+  </word>
+  <word id="426">
+    <eng>merry</eng>
+    <ru>веселый</ru>
+  </word>
+  <word id="427">
+    <eng>haunted</eng>
+    <ru>с привидениями</ru>
+  </word>
+  <word id="428">
+    <eng>sorcerous</eng>
+    <ru>волшебный</ru>
+  </word>
+  <word id="429">
+    <eng>poor</eng>
+    <ru>бедняк</ru>
+    <ru>бедный</ru>
+    <ru>слабый</ru>
+    <ru>убогий</ru>
+    <ru>жалкий</ru>
+  </word>
+  <word id="430">
+    <eng>wine</eng>
+    <ru>вино</ru>
+  </word>
+  <word id="431">
+    <eng>upon</eng>
+    <ru>на</ru>
+    <ru>по</ru>
+    <ru>после</ru>
+    <ru>при</ru>
+  </word>
+  <word id="432">
+    <eng>harrow</eng>
+    <ru>терзать</ru>
+  </word>
+  <word id="433">
+    <eng>manor</eng>
+    <ru>поместье</ru>
+    <ru>особняк</ru>
+  </word>
+  <word id="434">
+    <eng>shelter</eng>
+    <ru>защищать</ru>
+    <ru>спасать</ru>
+    <ru>укрывать</ru>
+    <ru>убежище</ru>
+  </word>
+  <word id="435">
+    <eng>rapid</eng>
+    <ru>стремительный</ru>
+    <ru>быстрый</ru>
+  </word>
+  <word id="436">
+    <eng>society</eng>
+    <ru>общество</ru>
+  </word>
+  <word id="437">
+    <eng>rugged</eng>
+    <ru>бурный</ru>
+  </word>
+  <word id="438">
+    <eng>warband</eng>
+    <ru>военный отряд</ru>
+  </word>
+  <word id="439">
+    <eng>serve</eng>
+    <ru>подача</ru>
+    <ru>помогать</ru>
+    <ru>служить</ru>
+    <ru>накрывать на стол</ru>
+    <ru>работать</ru>
+    <ru>кормить</ru>
+    <ru>вручать</ru>
+    <ru>подавать на стол</ru>
+  </word>
+  <word id="440">
+    <eng>exist</eng>
+    <ru>существовать</ru>
+  </word>
+  <word id="441">
+    <eng>vein</eng>
+    <ru>вена</ru>
+    <ru>прожилка</ru>
+  </word>
+  <word id="442">
+    <eng>beings</eng>
+    <ru>существа</ru>
+    <tr>['bi:ings]</tr>
+  </word>
+  <word id="443">
+    <eng>fast-paced</eng>
+    <ru>быстро изменяющийся</ru>
+  </word>
+  <word id="444">
+    <eng>incredibly</eng>
+    <ru>невероятно</ru>
+    <ru>невообразимо</ru>
+  </word>
+  <word id="445">
+    <eng>instance</eng>
+    <ru>случай</ru>
+    <ru>пример</ru>
+  </word>
+  <word id="446">
+    <eng>nobility</eng>
+    <ru>благородство</ru>
+    <ru>знать</ru>
+    <ru>дворянство</ru>
+  </word>
+  <word id="447">
+    <eng>statics</eng>
+    <ru>статика</ru>
+  </word>
+  <word id="448">
+    <eng>passage</eng>
+    <ru>проход</ru>
+    <ru>переход</ru>
+    <ru>коридор</ru>
+  </word>
+  <word id="449">
+    <eng>protracted</eng>
+    <ru>затяжной</ru>
+    <ru>длительный</ru>
+    <ru>затянувшийся</ru>
+  </word>
+  <word id="450">
+    <eng>merciless</eng>
+    <ru>беспощадный</ru>
+    <tr>[ˈmə:sɪlɪs]</tr>
+  </word>
+  <word id="451">
+    <eng>presence</eng>
+    <ru>присутствие</ru>
+    <ru>соседство</ru>
+  </word>
+  <word id="452">
+    <eng>architect</eng>
+    <ru>архитектор</ru>
+  </word>
+  <word id="453">
+    <eng>hound</eng>
+    <ru>преследовать</ru>
+    <ru>собака</ru>
+    <ru>гончая</ru>
+  </word>
+  <word id="454">
+    <eng>perhaps</eng>
+    <ru>возможно</ru>
+  </word>
+  <word id="455">
+    <eng>erupt</eng>
+    <ru>прорываться</ru>
+    <ru>извергать</ru>
+    <ru>извергаться</ru>
+  </word>
+  <word id="456">
+    <eng>freed</eng>
+    <ru>освобожденный</ru>
+  </word>
+  <word id="457">
+    <eng>undisputed</eng>
+    <ru>бесспорный</ru>
+  </word>
+  <word id="458">
+    <eng>smite</eng>
+    <ru>удар</ru>
+    <ru>ударять</ru>
+    <ru>сражать</ru>
+    <ru>поразить</ru>
+    <ru>покарать</ru>
+    <ru>карать</ru>
+    <ru>наказывать</ru>
+  </word>
+  <word id="459">
+    <eng>faction</eng>
+    <ru>фракция</ru>
+  </word>
+  <word id="460">
+    <eng>manner</eng>
+    <ru>манера</ru>
+    <ru>способ</ru>
+    <ru>образ</ru>
+    <ru>поведение</ru>
+  </word>
+  <word id="461">
+    <eng>despite</eng>
+    <ru>несмотря на</ru>
+  </word>
+  <word id="462">
+    <eng>into thin air</eng>
+    <ru>бесследно</ru>
+  </word>
+  <word id="463">
+    <eng>townsfolk</eng>
+    <ru>горожане</ru>
+    <ru>обыватели</ru>
+  </word>
+  <word id="464">
+    <eng>weaponry</eng>
+    <ru>вооружение</ru>
+  </word>
+  <word id="465">
+    <eng>provide</eng>
+    <ru>обеспечивать</ru>
+    <tr>[prəˈvaɪd]</tr>
+  </word>
+  <word id="466">
+    <eng>strike</eng>
+    <ru>удар</ru>
+    <ru>ударять</ru>
+  </word>
+  <word id="467">
+    <eng>arbor</eng>
+    <ru>дерево</ru>
+    <tr>[ˈɑ:bɔ]</tr>
+  </word>
+  <word id="468">
+    <eng>threaten</eng>
+    <ru>угрожать</ru>
+    <ru>запугать</ru>
+    <ru>пугать</ru>
+    <tr>[ˈθretn]</tr>
+  </word>
+  <word id="469">
+    <eng>depend</eng>
+    <ru>зависеть</ru>
+  </word>
+  <word id="470">
+    <eng>spectacular</eng>
+    <ru>захватывающий</ru>
+    <ru>эффектный</ru>
+    <ru>потрясающий</ru>
+    <tr>[spekˈtækjulə]</tr>
+  </word>
+  <word id="471">
+    <eng>perk</eng>
+    <ru>привилегия</ru>
+  </word>
+  <word id="472">
+    <eng>kit</eng>
+    <ru>комплект</ru>
+    <ru>снаряжение</ru>
+  </word>
+  <word id="473">
+    <eng>circumstance</eng>
+    <ru>обстоятельство</ru>
+    <tr>[ˈsə:kəmstəns]</tr>
+  </word>
+  <word id="474">
+    <eng>domination</eng>
+    <ru>доминирование</ru>
+    <ru>господство</ru>
+  </word>
+  <word id="475">
+    <eng>looming</eng>
+    <ru>назревающий</ru>
+    <ru>грядущий</ru>
+    <ru>надвигающийся</ru>
+  </word>
+  <word id="476">
+    <eng>intended</eng>
+    <ru>намеченный</ru>
+    <tr>[ɪnˈtendɪd]</tr>
+  </word>
+  <word id="477">
+    <eng>stream</eng>
+    <ru>течь</ru>
+    <ru>поток</ru>
+    <ru>струиться</ru>
+  </word>
+  <word id="478">
+    <eng>petal</eng>
+    <ru>лепесток</ru>
+  </word>
+  <word id="479">
+    <eng>eliminate</eng>
+    <ru>устранять</ru>
+    <tr>[ɪˈlɪmɪneɪt]</tr>
+  </word>
+  <word id="480">
+    <eng>remain</eng>
+    <ru>оставаться</ru>
+    <ru>находиться</ru>
+  </word>
+  <word id="481">
+    <eng>recent</eng>
+    <ru>недавний</ru>
+  </word>
+  <word id="482">
+    <eng>in due time</eng>
+    <ru>в назначенное время</ru>
+    <ru>в срок</ru>
+    <ru>в свое время</ru>
+  </word>
+  <word id="483">
+    <eng>worship</eng>
+    <ru>поклоняться</ru>
+    <ru>поклонение</ru>
+  </word>
+  <word id="484">
+    <eng>seek</eng>
+    <ru>искать</ru>
+    <ru>взыскать</ru>
+    <ru>разыскивать</ru>
+    <ru>поиск</ru>
+  </word>
+  <word id="485">
+    <eng>reveal</eng>
+    <ru>разоблачать</ru>
+    <ru>показывать</ru>
+    <ru>выявлять</ru>
+  </word>
+  <word id="486">
+    <eng>ingenious</eng>
+    <ru>изобретательный</ru>
+    <tr>[ɪnˈdʒi:njəs]</tr>
+  </word>
+  <word id="487">
+    <eng>court</eng>
+    <ru>суд</ru>
+    <ru>ухаживать</ru>
+  </word>
+  <word id="488">
+    <eng>immense</eng>
+    <ru>огромный</ru>
+    <ru>потрясающий</ru>
+  </word>
+  <word id="489">
+    <eng>memories</eng>
+    <ru>воспоминания</ru>
+  </word>
+  <word id="490">
+    <eng>deadly</eng>
+    <ru>смертельный</ru>
+  </word>
+  <word id="491">
+    <eng>hop</eng>
+    <ru>прыгать</ru>
+  </word>
+  <word id="492">
+    <eng>levitating</eng>
+    <ru>парящий</ru>
+  </word>
+  <word id="493">
+    <eng>counter</eng>
+    <ru>противостоять</ru>
+    <ru>встречный</ru>
+  </word>
+  <word id="494">
+    <eng>whirl</eng>
+    <ru>водоворот</ru>
+    <ru>вихрь</ru>
+    <ru>кружить</ru>
+    <tr>[wə:l]</tr>
+  </word>
+  <word id="495">
+    <eng>glacial</eng>
+    <ru>ледниковый</ru>
+  </word>
+  <word id="496">
+    <eng>lay</eng>
+    <ru>ложить</ru>
+    <ru>класть</ru>
+  </word>
+  <word id="497">
+    <eng>leaves</eng>
+    <ru>листья</ru>
+    <ru>листва</ru>
+  </word>
+  <word id="498">
+    <eng>enigma</eng>
+    <ru>загадка</ru>
+    <tr>[ɪˈnɪɡmə]</tr>
+  </word>
+  <word id="499">
+    <eng>reflective</eng>
+    <ru>рефлекторный</ru>
+    <ru>задумчивый</ru>
+    <ru>отражающий</ru>
+    <ru>отражение</ru>
+  </word>
+  <word id="500">
+    <eng>lodge</eng>
+    <ru>домик</ru>
+  </word>
+  <word id="501">
+    <eng>countryside</eng>
+    <ru>сельская местность</ru>
+    <ru>деревня</ru>
+    <ru>село</ru>
+    <tr>[ˈkʌntrɪsaɪd]</tr>
+  </word>
+  <word id="502">
+    <eng>passionate</eng>
+    <ru>страстный</ru>
+    <ru>вспыльчивый</ru>
+  </word>
+  <word id="503">
+    <eng>humanity</eng>
+    <ru>человечество</ru>
+  </word>
+  <word id="504">
+    <eng>stupidity</eng>
+    <ru>глупость</ru>
+  </word>
+  <word id="505">
+    <eng>shape</eng>
+    <ru>форма</ru>
+    <ru>облик</ru>
+    <ru>очертания</ru>
+    <ru>силуэт</ru>
+    <ru>формировать</ru>
+  </word>
+  <word id="506">
+    <eng>stature</eng>
+    <ru>высота</ru>
+    <tr>[ˌstætʃə]</tr>
+  </word>
+  <word id="507">
+    <eng>long-departed</eng>
+    <ru>давно ушедший</ru>
+  </word>
+  <word id="508">
+    <eng>verdant</eng>
+    <ru>зеленый</ru>
+    <ru>облиственный</ru>
+    <ru>зелень</ru>
+  </word>
+  <word id="509">
+    <eng>gizmo</eng>
+    <ru>штуковина</ru>
+  </word>
+  <word id="510">
+    <eng>hail</eng>
+    <ru>быть родом</ru>
+    <ru>происходить</ru>
+  </word>
+  <word id="511">
+    <eng>former</eng>
+    <ru>прежний</ru>
+    <ru>бывший</ru>
+  </word>
+  <word id="512">
+    <eng>naturally</eng>
+    <ru>свободно</ru>
+    <ru>непринужденно</ru>
+  </word>
+  <word id="513">
+    <eng>capital</eng>
+    <ru>столица</ru>
+  </word>
+  <word id="514">
+    <eng>decision</eng>
+    <ru>решение</ru>
+    <ru>приговор</ru>
+  </word>
+  <word id="515">
+    <eng>adventure</eng>
+    <ru>приключения</ru>
+    <ru>рисковать</ru>
+    <ru>приключение</ru>
+  </word>
+  <word id="516">
+    <eng>restore</eng>
+    <ru>восстанавливать</ru>
+    <ru>возрождать</ru>
+    <ru>реставрировать</ru>
+  </word>
+  <word id="517">
+    <eng>pose</eng>
+    <ru>излагать</ru>
+  </word>
+  <word id="518">
+    <eng>replace</eng>
+    <ru>заменять</ru>
+    <ru>сменять</ru>
+  </word>
+  <word id="519">
+    <eng>feature</eng>
+    <ru>показывать</ru>
+    <ru>представлять себе</ru>
+    <ru>рекламировать</ru>
+    <ru>представлять</ru>
+    <tr>[ˈfi:tʃə]</tr>
+  </word>
+  <word id="520">
+    <eng>fearsome</eng>
+    <ru>внушающий страх</ru>
+    <tr>[ˈfɪəsəm]</tr>
+  </word>
+  <word id="521">
+    <eng>spread</eng>
+    <ru>распространять</ru>
+    <ru>распространяться</ru>
+    <tr>[spred]</tr>
+  </word>
+  <word id="522">
+    <eng>triumph</eng>
+    <ru>одерживать победу</ru>
+    <ru>триумф</ru>
+  </word>
+  <word id="523">
+    <eng>duty</eng>
+    <ru>обязанность</ru>
+    <ru>пошлина</ru>
+  </word>
+  <word id="524">
+    <eng>service</eng>
+    <ru>услуги</ru>
+    <ru>обслуживание</ru>
+  </word>
+  <word id="525">
+    <eng>the least</eng>
+    <ru>наименьшее количество</ru>
+  </word>
+  <word id="526">
+    <eng>hulking</eng>
+    <ru>неповоротливый</ru>
+  </word>
+  <word id="527">
+    <eng>battlefield</eng>
+    <ru>поле битвы</ru>
+  </word>
+  <word id="528">
+    <eng>lush</eng>
+    <ru>пышный</ru>
+    <ru>густой</ru>
+    <ru>цветущий</ru>
+  </word>
+  <word id="529">
+    <eng>terror</eng>
+    <ru>террор</ru>
+    <ru>ужас</ru>
+  </word>
+  <word id="530">
+    <eng>eternal</eng>
+    <ru>вечный</ru>
+  </word>
+  <word id="531">
+    <eng>potent</eng>
+    <ru>мощный</ru>
+  </word>
+  <word id="532">
+    <eng>tackle</eng>
+    <ru>заниматься</ru>
+    <ru>браться</ru>
+  </word>
+  <word id="533">
+    <eng>approach</eng>
+    <ru>приближаться</ru>
+    <ru>обращаться</ru>
+    <ru>приближение</ru>
+    <ru>подход</ru>
+    <ru>подойти</ru>
+    <tr>[əˈprəutʃ]</tr>
+  </word>
+  <word id="534">
+    <eng>seize</eng>
+    <ru>захватывать</ru>
+    <ru>хватать</ru>
+    <ru>охватывать</ru>
+    <ru>схватить</ru>
+    <ru>завладевать</ru>
+    <tr>[si:z]</tr>
+  </word>
+  <word id="535">
+    <eng>district</eng>
+    <ru>район</ru>
+  </word>
+  <word id="536">
+    <eng>thrive</eng>
+    <ru>процветать</ru>
+    <ru>развиваться</ru>
+  </word>
+  <word id="537">
+    <eng>menial</eng>
+    <ru>черный</ru>
+    <ru>низкооплачиваемый</ru>
+  </word>
+  <word id="538">
+    <eng>defender</eng>
+    <ru>защитник</ru>
+  </word>
+  <word id="539">
+    <eng>mankind</eng>
+    <ru>человечество</ru>
+  </word>
+  <word id="540">
+    <eng>woe</eng>
+    <ru>горе</ru>
+  </word>
+  <word id="541">
+    <eng>share</eng>
+    <ru>делиться</ru>
+    <ru>распределять</ru>
+  </word>
+  <word id="542">
+    <eng>withdrawal</eng>
+    <ru>прекращение</ru>
+    <ru>вывод войск</ru>
+    <ru>снятие</ru>
+    <ru>выведение</ru>
+    <tr>[wɪðˈdrɔ:əl]</tr>
+  </word>
+  <word id="543">
+    <eng>subterfuge</eng>
+    <ru>отговорка</ru>
+    <tr>[ˈsʌbtəfju:dʒ]</tr>
+  </word>
+  <word id="544">
+    <eng>earshot</eng>
+    <ru>слышимость</ru>
+  </word>
+  <word id="545">
+    <eng>steady hand</eng>
+    <ru>твердая рука</ru>
+    <tr>[ˈstedɪ]</tr>
+  </word>
+  <word id="546">
+    <eng>wisdom</eng>
+    <ru>мудрость</ru>
+  </word>
+  <word id="547">
+    <eng>juvenile</eng>
+    <ru>юный</ru>
+    <tr>[ˈdʒu:vɪnaɪl]</tr>
+  </word>
+  <word id="548">
+    <eng>trigger</eng>
+    <ru>вызывать</ru>
+    <ru>запуск</ru>
+  </word>
+  <word id="549">
+    <eng>hurl</eng>
+    <ru>швырять</ru>
+    <tr>[hə:l]</tr>
+  </word>
+  <word id="550">
+    <eng>unleash</eng>
+    <ru>выпускать</ru>
+    <ru>обрушить</ru>
+    <ru>развязывать</ru>
+    <ru>высвобождать</ru>
+    <ru>развязать</ru>
+  </word>
+  <word id="551">
+    <eng>conjure</eng>
+    <ru>колдовать</ru>
+    <ru>колдовской</ru>
+    <tr>[ˈkʌndʒə]</tr>
+  </word>
+  <word id="552">
+    <eng>amount</eng>
+    <ru>количество</ru>
+  </word>
+  <word id="553">
+    <eng>chill</eng>
+    <ru>замораживать</ru>
+  </word>
+  <word id="554">
+    <eng>disappearing</eng>
+    <ru>исчезновение</ru>
+  </word>
+  <word id="555">
+    <eng>versatility</eng>
+    <ru>многосторонность</ru>
+    <tr>[ˌvə:səˈtɪlɪtɪ]</tr>
+  </word>
+  <word id="556">
+    <eng>extend</eng>
+    <ru>распространять</ru>
+  </word>
+  <word id="557">
+    <eng>relinquish</eng>
+    <ru>оставлять</ru>
+  </word>
+  <word id="558">
+    <eng>veil</eng>
+    <ru>завеса</ru>
+  </word>
+  <word id="559">
+    <eng>elemental</eng>
+    <ru>стихийный</ru>
+  </word>
+  <word id="560">
+    <eng>maintain</eng>
+    <ru>поддерживать</ru>
+  </word>
+  <word id="561">
+    <eng>literally</eng>
+    <ru>буквально</ru>
+  </word>
+  <word id="562">
+    <eng>invisibility</eng>
+    <ru>невидимость</ru>
+  </word>
+  <word id="563">
+    <eng>distortion</eng>
+    <ru>искажение</ru>
+    <tr>[dɪsˈtɔ:ʃən]</tr>
+  </word>
+  <word id="564">
+    <eng>sinister</eng>
+    <ru>зловещий</ru>
+    <tr>[ˈsɪnɪstə]</tr>
+  </word>
+  <word id="565">
+    <eng>devoted</eng>
+    <ru>преданный</ru>
+  </word>
+  <word id="566">
+    <eng>cripple</eng>
+    <ru>наносить вред</ru>
+    <tr>[ˈkrɪpl]</tr>
+  </word>
+  <word id="567">
+    <eng>benefit</eng>
+    <ru>выгода</ru>
+    <ru>преимущество</ru>
+  </word>
+  <word id="568">
+    <eng>elect</eng>
+    <ru>выбирать</ru>
+  </word>
+  <word id="569">
+    <eng>toward</eng>
+    <ru>к</ru>
+  </word>
+  <word id="570">
+    <eng>favor</eng>
+    <ru>польза</ru>
+    <ru>позволение</ru>
+    <ru>одобрение</ru>
+  </word>
+  <word id="571">
+    <eng>fabric</eng>
+    <ru>материя</ru>
+    <ru>ткань</ru>
+    <ru>структура</ru>
+  </word>
+  <word id="572">
+    <eng>toughness</eng>
+    <ru>выносливость</ru>
+  </word>
+  <word id="573">
+    <eng>phantasm</eng>
+    <ru>фантом</ru>
+  </word>
+  <word id="574">
+    <eng>brink</eng>
+    <ru>край</ru>
+  </word>
+  <word id="575">
+    <eng>shock</eng>
+    <ru>удар</ru>
+    <ru>шок</ru>
+  </word>
+  <word id="576">
+    <eng>lack</eng>
+    <ru>испытывать недостаток</ru>
+    <ru>недоставать</ru>
+  </word>
+  <word id="577">
+    <eng>deception</eng>
+    <ru>обман</ru>
+  </word>
+  <word id="578">
+    <eng>selfless</eng>
+    <ru>самоотверженный</ru>
+  </word>
+  <word id="579">
+    <eng>enchantment</eng>
+    <ru>очарование</ru>
+    <tr>[ɪnˈtʃɑ:ntmənt]</tr>
+  </word>
+  <word id="580">
+    <eng>spectral</eng>
+    <ru>призрачный</ru>
+  </word>
+  <word id="581">
+    <eng>fuel</eng>
+    <ru>питать</ru>
+  </word>
+  <word id="582">
+    <eng>rely</eng>
+    <ru>полагаться</ru>
+  </word>
+  <word id="583">
+    <eng>enhance</eng>
+    <ru>увеличивать</ru>
+    <ru>расширенный</ru>
+    <tr>[ɪnˈhɑ:ns]</tr>
+  </word>
+  <word id="584">
+    <eng>do bidding</eng>
+    <ru>выполнять указания</ru>
+  </word>
+  <word id="585">
+    <eng>fierce</eng>
+    <ru>жестокий</ru>
+    <ru>свирепый</ru>
+    <ru>неистовый</ru>
+    <tr>[fɪəs]</tr>
+  </word>
+  <word id="586">
+    <eng>fiery</eng>
+    <ru>пламенный</ru>
+  </word>
+  <word id="587">
+    <eng>charm</eng>
+    <ru>очаровывать</ru>
+  </word>
+  <word id="588">
+    <eng>typify</eng>
+    <ru>символизировать</ru>
+    <tr>[ˈtɪpɪfaɪ]</tr>
+  </word>
+  <word id="589">
+    <eng>multi-faceted</eng>
+    <ru>многогранный</ru>
+  </word>
+  <word id="590">
+    <eng>mantra</eng>
+    <ru>молитва</ru>
+  </word>
+  <word id="591">
+    <eng>cheat</eng>
+    <ru>обманывать</ru>
+    <ru>обман</ru>
+  </word>
+  <word id="592">
+    <eng>hinder</eng>
+    <ru>препятствовать</ru>
+    <tr>[ˈhaɪndə]</tr>
+  </word>
+  <word id="593">
+    <eng>threshold</eng>
+    <ru>порог</ru>
+    <tr>[ˈθreʃhəuld]</tr>
+  </word>
+  <word id="594">
+    <eng>unparalleled</eng>
+    <ru>непревзойденный</ru>
+    <ru>бесподобный</ru>
+  </word>
+  <word id="595">
+    <eng>distract</eng>
+    <ru>отвлекать</ru>
+    <tr>[dɪsˈtrækt]</tr>
+  </word>
+  <word id="596">
+    <eng>shatter</eng>
+    <ru>разрушать</ru>
+    <ru>сокрушать</ru>
+  </word>
+  <word id="597">
+    <eng>evade</eng>
+    <ru>уклоняться</ru>
+  </word>
+  <word id="598">
+    <eng>accordingly</eng>
+    <ru>соответственно</ru>
+    <tr>[əˈkɔ:dɪŋlɪ]</tr>
+  </word>
+  <word id="599">
+    <eng>temporarily</eng>
+    <ru>временно</ru>
+  </word>
+  <word id="600">
+    <eng>loyal</eng>
+    <ru>преданный</ru>
+  </word>
+  <word id="601">
+    <eng>disposal</eng>
+    <ru>распоряжение</ru>
+  </word>
+  <word id="602">
+    <eng>justice</eng>
+    <ru>справедливость</ru>
+  </word>
+  <word id="603">
+    <eng>bestow</eng>
+    <ru>даровать</ru>
+    <tr>[bɪˈstəu]</tr>
+  </word>
+  <word id="604">
+    <eng>allied</eng>
+    <ru>союзнический</ru>
+  </word>
+  <word id="605">
+    <eng>confuse</eng>
+    <ru>путать</ru>
+    <ru>перепутать</ru>
+    <ru>смущать</ru>
+  </word>
+  <word id="606">
+    <eng>attune</eng>
+    <ru>настраивать</ru>
+  </word>
+  <word id="607">
+    <eng>scorching</eng>
+    <ru>палящий</ru>
+  </word>
+  <word id="608">
+    <eng>rejuvenate</eng>
+    <ru>омолаживать</ru>
+    <tr>[rɪˈdʒu:vɪneɪt]</tr>
+  </word>
+  <word id="609">
+    <eng>spike</eng>
+    <ru>шип</ru>
+  </word>
+  <word id="610">
+    <eng>element</eng>
+    <ru>стихия</ru>
+  </word>
+  <word id="611">
+    <eng>plant</eng>
+    <ru>размещать</ru>
+    <ru>растение</ru>
+  </word>
+  <word id="612">
+    <eng>relatively</eng>
+    <ru>относительно</ru>
+    <tr>[ˈrelətɪvlɪ]</tr>
+  </word>
+  <word id="613">
+    <eng>accompany</eng>
+    <ru>сопровождать</ru>
+    <tr>[əˈkʌmpənɪ]</tr>
+  </word>
+  <word id="614">
+    <eng>nature</eng>
+    <ru>природа</ru>
+  </word>
+  <word id="615">
+    <eng>assign</eng>
+    <ru>назначать</ru>
+    <ru>поручать</ru>
+    <tr>[əˈsaɪn]</tr>
+  </word>
+  <word id="616">
+    <eng>shrug off</eng>
+    <ru>сбросить со счетов</ru>
+  </word>
+  <word id="617">
+    <eng>distort</eng>
+    <ru>искажать</ru>
+  </word>
+  <word id="618">
+    <eng>supportive</eng>
+    <ru>вспомогательный</ru>
+  </word>
+  <word id="619">
+    <eng>banner</eng>
+    <ru>знамя</ru>
+  </word>
+  <word id="620">
+    <eng>transparent</eng>
+    <ru>прозрачный</ru>
+    <tr>[trænsˈpɛərənt]</tr>
+  </word>
+  <word id="621">
+    <eng>eruption</eng>
+    <ru>извержение</ru>
+  </word>
+  <word id="622">
+    <eng>flank</eng>
+    <ru>фланг</ru>
+  </word>
+  <word id="623">
+    <eng>capable</eng>
+    <ru>способный</ru>
+    <tr>[ˈkeɪpəbl]</tr>
+  </word>
+  <word id="624">
+    <eng>punish</eng>
+    <ru>наказывать</ru>
+    <tr>[ˈpʌnɪʃ]</tr>
+  </word>
+  <word id="625">
+    <eng>cause</eng>
+    <ru>причина</ru>
+    <ru>вызывать</ru>
+    <ru>заставлять</ru>
+  </word>
+  <word id="626">
+    <eng>tactician</eng>
+    <ru>тактик</ru>
+  </word>
+  <word id="627">
+    <eng>greatsword</eng>
+    <ru>двуручный меч</ru>
+  </word>
+  <word id="628">
+    <eng>suck</eng>
+    <ru>высасывать</ru>
+  </word>
+  <word id="629">
+    <eng>dare</eng>
+    <ru>сметь</ru>
+    <ru>отваживаться</ru>
+  </word>
+  <word id="630">
+    <eng>flightless</eng>
+    <ru>нелетающий</ru>
+  </word>
+  <word id="631">
+    <eng>phantasmal</eng>
+    <ru>призрачный</ru>
+    <tr>[fænˈtæzməl]</tr>
+  </word>
+  <word id="632">
+    <eng>persistent</eng>
+    <ru>постоянный</ru>
+  </word>
+  <word id="633">
+    <eng>aid</eng>
+    <ru>помогать</ru>
+    <ru>помощь</ru>
+  </word>
+  <word id="634">
+    <eng>exactly</eng>
+    <ru>точно</ru>
+  </word>
+  <word id="635">
+    <eng>feed on</eng>
+    <ru>питаться</ru>
+  </word>
+  <word id="636">
+    <eng>attunement</eng>
+    <ru>настройка</ru>
+  </word>
+  <word id="637">
+    <eng>offensive</eng>
+    <ru>наступательный</ru>
+    <ru>наступление</ru>
+  </word>
+  <word id="638">
+    <eng>behavior</eng>
+    <ru>поведение</ru>
+  </word>
+  <word id="639">
+    <eng>flee</eng>
+    <ru>бежать</ru>
+    <ru>убегать</ru>
+  </word>
+  <word id="640">
+    <eng>assault</eng>
+    <ru>нападение</ru>
+  </word>
+  <word id="641">
+    <eng>fighter</eng>
+    <ru>боец</ru>
+  </word>
+  <word id="642">
+    <eng>keen</eng>
+    <ru>острый</ru>
+    <ru>увлеченный</ru>
+  </word>
+  <word id="643">
+    <eng>lightning</eng>
+    <ru>молния</ru>
+    <tr>[ˈlaɪtnɪŋ]</tr>
+  </word>
+  <word id="644">
+    <eng>influence</eng>
+    <ru>влияние</ru>
+    <ru>влиять</ru>
+  </word>
+  <word id="645">
+    <eng>detonate</eng>
+    <ru>взрывать</ru>
+  </word>
+  <word id="646">
+    <eng>inflict</eng>
+    <ru>причинять</ru>
+  </word>
+  <word id="647">
+    <eng>stationary</eng>
+    <ru>постоянный</ru>
+  </word>
+  <word id="648">
+    <eng>harness</eng>
+    <ru>использовать</ru>
+    <ru>запрягать</ru>
+    <ru>упряжь</ru>
+    <ru>упряжка</ru>
+  </word>
+  <word id="649">
+    <eng>molten</eng>
+    <ru>расплавленный</ru>
+  </word>
+  <word id="650">
+    <eng>certain</eng>
+    <ru>определенный</ru>
+    <ru>некоторый</ru>
+  </word>
+  <word id="651">
+    <eng>empower</eng>
+    <ru>уполномочивать</ru>
+  </word>
+  <word id="652">
+    <eng>replica</eng>
+    <ru>точная копия</ru>
+    <tr>[ˈreplɪkə]</tr>
+  </word>
+  <word id="653">
+    <eng>sacrifice</eng>
+    <ru>жертва</ru>
+    <ru>приносить в жертву</ru>
+    <ru>жертвовать</ru>
+  </word>
+  <word id="654">
+    <eng>leap</eng>
+    <ru>прыжок</ru>
+    <ru>прыгать</ru>
+  </word>
+  <word id="655">
+    <eng>fiend</eng>
+    <ru>злодей</ru>
+    <ru>злодейка</ru>
+    <tr>[fi:nd]</tr>
+  </word>
+</wordbase>

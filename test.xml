@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<wordbase>
+  <word>
+	  <eng>test</eng>
+	  <ru>тест1</ru>
+	  <ru>тест2</ru>
+	  <ru>тест3</ru>
+	  <ru>тест4</ru>
+	  <tr>['test]</tr>
+  </word>
+  <word>
+	  <eng>hello</eng>
+	  <ru>привет1</ru>
+	  <ru>привет1</ru>
+	  <tr>['helo]</tr>
+  </word>
+</wordbase>
